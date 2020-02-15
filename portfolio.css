@@ -56,5 +56,56 @@ body{
 .intro{
 	font-size: 2.5em;
     font-weight: 700;
-    margin: 100px 0 0 0;
+    margin: 60px 0 60px 0;
+}
+
+.aboutMe{
+	margin: 30px 0 0 0;
+	height: 350px;
+}
+
+hr{
+    background: linear-gradient(to right, #ff5a23, #f7106b);
+    height: 20px;
+    width: 45% !important;
+}
+
+.aboutMe > .col-md-8{
+	background-color: #fff;
+	box-shadow:  0 0 5px 5px #545b6266, 20px 20px #092545;
+}
+
+.aboutMe > .col-md-4{
+	align-items: center;
+	align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title > h1{
+	display: flex;
+    justify-content: flex-end;
+    font-size: 7rem !important;
+    color: #092545;
+    line-height: 90px;
+    font-weight: 600;
+}
+
+.projects{
+	height: 350px;
+}
+
+.projects .col-md-8{
+	align-items: center;
+	align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects > .title > h1{
+	justify-content: flex-start;
+}
+
+.projects hr{
+	    width: 40% !important;
 }
