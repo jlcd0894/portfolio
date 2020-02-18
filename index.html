@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
      <link rel="stylesheet" type="text/css" href="portfolio.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap" rel="stylesheet">
     <title>My Portfolio</title>
@@ -15,7 +16,7 @@
   <body>
   <div class="header container">
 	<nav class="navbar navbar-expand-lg navbar-expand-lg navbar-light">
-	  <a class="navbar-brand" href="#"></a>
+	  <span class="drop"><a class="navbar-brand" href="#"></a></span>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -28,33 +29,102 @@
 	  </div>
 	</nav>
   </div>
-  <div class="container">
-  	<div class="row intro">
-  		 <div class="col-12 col-md-8">
-  		 	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-	    </div>
-	    <div class="col-12 col-md-4">
-		      <img src="designer.svg">
-	    </div>
-  	</div>
-  	<div class="row aboutMe">
-  		<div class="col-12 col-md-4 title">
-  			<h1 style="width: 100%;">About</h1>
-  			<hr align="right">
-  			<h1>me</h1>
-  		</div>
-  		<div class="col-12 col-md-8">
-  			
+  	<div class="container intro">
+  		<div class="row">
+  			<div class="col-12 col-md-8">
+  		 		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+		    </div>
+		    <div class="col-12 col-md-4">
+			    <img src="designer.svg">
+		    </div>
   		</div>
   	</div>
-  	<div class="row projects">
-  		  <div class="col-12 col-md-8 title">
-  			<h1 style="width: 100%;">Featured</h1>
-  			<hr align="right">
-  			<h1>projects</h1>
+  	<div class="container aboutMe">
+  		<div class="row aboutRow">
+  			<div class="col-12 col-md-4 title">
+	  			<h1 style="width: 100%;">About</h1>
+	  			<hr align="right">
+	  			<h1>me</h1>
+	  		</div>
+	  		<div class="col-12 col-md-8">
+	  			
+	  		</div>
   		</div>
   	</div>
-  </div>
+  	<div class="container projects">
+  		<div class="row titleRow">
+  			<div class="col-12 col-md-8 title">
+  				<h1 style="width: 100%;">Featured</h1>
+  				<hr align="right">
+  				<h1>projects</h1>
+  			</div>
+  		</div>
+  		<div class="row tiles">
+  			<div class="col-12 col-md-6">
+  				<div class="tile">
+  					<div class="mainInfo">
+  						
+  					</div>
+  				</div>
+  			</div>
+  			<div class="col-12 col-md-6">
+  				<div class="tile">
+  					<div class="mainInfo">
+  						
+  					</div>
+  				</div>
+  			</div>
+  			<div class="col-12 col-md-6">
+  				<div class="tile">
+  					<div class="mainInfo">
+  						
+  					</div>
+  				</div>
+  			</div>
+  			<div class="col-12 col-md-6">
+  				<div class="tile">
+  					<div class="mainInfo">
+  						
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="container contactMe">
+  		<div class="row titleRow">
+  			<div class="col-12 col-md-8 title">
+	  			<h1 style="width: 100%;">Contact me</h1>
+	  			<hr align="left">
+  			</div>
+  		</div>
+  		<div class="row socialIcons">
+  			<ul>
+			  <li>
+			    <a href="#">
+			      <i class="fab fa-facebook-f icon"></i>    </a>
+			  </li>
+			  <li>
+			    <a href="#"><i class="fab fa-twitter icon"></i></a>
+			  </li>
+			  <li>
+			    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+			  <li>
+			    <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li>
+			</ul>
+  		</div>
+  	</div>
+  
+    <div class="footer">
+		<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave">
+		  <defs>
+		      <linearGradient id="gradient1" x1="1.5" x2="0" y1="0" y2="1">
+		        <stop offset="0%" stop-color="#f7106b" stop-opacity="0.9" />
+		        <stop offset="100%" stop-color="#ff5a23" />
+		      </linearGradient>
+		  </defs>
+		  <path id="feel-the-wave" d=""/>
+		</svg>
+  	</div>
   
 
     <!-- Optional JavaScript -->
@@ -62,6 +132,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="portfolio.js"></script>
+
+    <!-- Waves -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+
+	<!-- Personal -->
+	<script src="portfolio.js"></script>
+
   </body>
 </html>
