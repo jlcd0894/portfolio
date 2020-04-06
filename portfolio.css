@@ -1,5 +1,6 @@
 body{ 
   font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
  }
 
 .header{
@@ -120,11 +121,11 @@ body{
   content: "";
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 3px;
   top: 20px;
   bottom: 0;
   left: 0;
-  background-color: #f7106b;
+  background: linear-gradient(to right, #ff5a23, #f7106b);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -177,10 +178,61 @@ hr{
     flex-wrap: wrap;
 }
 
+#resume{
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#resume a{
+  border: 2px solid #092545;
+  color: #092545;
+  padding: 0 10px;
+  transition: .5s;
+  display: flex;
+  border-radius: 3px;
+  align-items: center;
+}
+
+.r-link:hover{
+  border: 2px solid #092545;
+  background-color: #092545;
+  color: white !important;
+  padding: 0 10px;
+  margin-left:10px;
+}
+
+#dnload-btn {
+  width: 30px;
+  height: auto;
+  display: inline-flex;
+}
+
+.r-link:hover path{
+    stroke: white !important;
+  fill: white !important;
+}
+
+ .r-link:hover g[transform="matrix(1,0,0,1,12.562000274658203,12)"],.r-link:hover g[transform="matrix(1,0,0,1,12.562000274658203,12)"] *{
+  stroke: #092545 !important;
+  fill: #092545 !important;
+ }
+
+/*#dnload-btn path{
+  stroke: #092545;
+  fill: #092545;
+}*/
+
+ g[mask="url(#__lottie_element_14)"], g[mask="url(#__lottie_element_14)"] *{
+  stroke: #092545 !important;
+  fill: #092545 !important;
+ }
+
 .title > h1{
     display: flex;
     /*justify-content: flex-end;*/
-    font-size: 7rem !important;
+    font-size: 7em !important;
     color: #092545;
     line-height: 90px;
     font-weight: 600;
@@ -237,7 +289,26 @@ hr{
 }
 
 .titleRow{
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+}
+
+.prjctImg{
+  height: 80%;
+  width: 100%;
+  background: url(appImg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.description{
+  height: 20%;
+  width: 100%;
+}
+
+.dTitle, .dDesc{
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .mainInfo{
@@ -251,14 +322,27 @@ hr{
   transition: .3s ease-in-out;
 }
 
-.mainInfo:hover{
+.tile:hover .mainInfo{
   -webkit-transform: scale(.95);
   transform: scale(.95);
+}
+
+.mainInfo a{
+  color: #092545 !important;
+}
+
+.mainInfo a:hover{
+  color: #1f5b9e !important;
+  text-decoration: none !important;
 }
 
 .contactMe{
   margin: 30px auto 0 auto;
   height: 350px;
+  background: url(mailFlying.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 ul {
@@ -318,25 +402,69 @@ ul li a:hover:before {
 }
 
 ul li:nth-child(1) a:before{
-  background: #3b5999;
+  background: linear-gradient(to right, #ff5a23, #f7106b);
 }
 
 ul li:nth-child(2) a:before{
-  background: #55acee;
+  background: linear-gradient(to right, #ff5a23, #f7106b);
 }
 
 ul li:nth-child(3) a:before {
-  background: #0077b5;
+  background: linear-gradient(to right, #ff5a23, #f7106b);
 }
 
 ul li:nth-child(4) a:before {
-  background: #dd4b39;
+  background: linear-gradient(to right, #ff5a23, #f7106b);
 }
 
-.socialIcons > ul{
+.socialIcons ul{
       padding: 0;
 }
 
+.mail{
+  margin: 0 0 20px 20px;
+}
+
+.mail a{
+  font-size: 2em !important;
+  color: #092545 !important;
+}
+
+
+.prjctIntro{
+  margin: 30px auto 60px auto;
+  /*height: 350px;*/
+}
+
+.prjctIntro .col-md-6{
+  background-color: #fff;
+  box-shadow:  0 0 5px 5px #545b6266;
+  border-radius: 5px;
+  height: 550px;
+}
+
+.prjctIntro .col-md-5{
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 3%;
+}
+
+.prjctIntro hr{
+  width: 35% !important;
+}
+
+.prjctInfo hr{
+  height: 5px;
+  width: 100% !important;
+}
+
+.infoImg{
+  height: 750px;
+  background-color: red;
+  margin-bottom: 30px;
+}
 
 /*footer*/
 
@@ -368,18 +496,74 @@ ul li:nth-child(4) a:before {
   z-index: 2;
 }
 
+.wave2 {
+  position: absolute;
+  /*z-index: 1;*/
+}
+
+.wave2 + .wave2 {
+  /*z-index: 2;*/
+}
+
+/*.animated{
+  opacity: 0;
+}*/
+
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+
 .title > h1{
-  font-size: 5em !important;
+  font-size: 3em !important;
 }
+
 .tiles{
-  height: 1400px;
+  height: 2400px;
+}
+
+.prjctImg{
+  height: 65%;
+}
+
+.title > h1 {
+  line-height: 30px;
+  justify-content: flex-end;
+}
+
+.title > h1:first-child{
+  padding-right: 22%;
+}
+
+hr{
+  width: 40% !important;
+}
+
+.projects .title > h1:first-child{
+  padding-right: 40%;
+}
+
+.projects hr{
+  width: 45% !important;
+}
+
+.contactMe h1{
+  justify-content: flex-start;
 }
 
 /*.aboutMe > .row > .col-md-8{
   max-width: 90%;
     height: 55%;
 }*/
+}
+
+
+@media only screen and (max-width: 768px) and (orientation: landscape){
+
+.tiles .col-12{
+  max-width: 50%;
+}
+.tiles{
+  height: 800px;
+}
+
+
 }

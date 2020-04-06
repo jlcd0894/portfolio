@@ -155,3 +155,83 @@ $('#feel-the-wave').wavify({
   color: 'url(#gradient1)',
   speed: .15
 });
+
+$('#feel-the-wave-2').wavify({
+  height: 10,
+  bones: 4,
+  amplitude: 30,
+  // color: '#B289EF',
+  color: 'url(#gradient2)',
+  speed: .15
+});
+
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+
+var animation = lottie.loadAnimation({
+  container: document.getElementById('dnload-btn'),
+  renderer: 'svg',
+  loop: false,
+  autoplay: false,
+  path: 'download.json'
+})
+
+$('#resume').click( function() {
+    animation.goToAndStop(0);
+    animation.play();
+});
+
+
+$(document).ready(function() {
+
+    $('body').hide().fadeIn(500);
+    $(".link-tile").click(function(e) {
+        e.preventDefault();
+        $link = $(this).attr("href");
+        $("body").fadeOut(500,function(){
+          window.location =  $link; 
+        });
+    });
+
+    //Codigo CHINGON LIMON de macho
+    function inViewPort(elem) {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+        var bounding = elem.getBoundingClientRect();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        var tolerace = 150;
+        var topVisible = (docViewBottom - elemTop - tolerace) > 0;
+        var bottomVisible = (docViewTop - elemBottom + tolerace) < 0;
+
+        return ( topVisible && bottomVisible );
+    };
+
+    $(window).scroll(function() {
+        $('[data-animate-in]').each(function() {
+            var $class = $(this).data('animate-in');
+            
+            if(inViewPort(this) && !$(this).hasClass($class)){
+                $(this)
+                .removeClass($(this).data('animate-out'))
+                .addClass($class);
+            }
+            if(!inViewPort(this)){
+                $(this)
+                .removeClass($(this).data('animate-in'))
+                .addClass($(this).data('animate-out'));
+            }
+        });
+    }).scroll();
+});
