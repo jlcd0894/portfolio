@@ -1,4 +1,4 @@
-body{ 
+body{
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
  }
@@ -97,7 +97,7 @@ body{
     margin: auto;
   background:url(logo-jc-white.png);
   background-size: contain;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
 
 .navbar-collapse{
@@ -140,9 +140,16 @@ body{
 }
 
 .intro{
-  font-size: 2.5em;
+  /*font-size: 2.5em;*/
     font-weight: 700;
-    margin: 60px auto;
+    margin: 100px auto;
+}
+
+.rightImg{
+  background: url(designer.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .aboutMe{
@@ -160,7 +167,7 @@ body{
 
 hr{
     background: linear-gradient(to right, #ff5a23, #f7106b);
-    height: 20px;
+    height: 10px;
     width: 45% !important;
 }
 
@@ -178,27 +185,33 @@ hr{
     flex-wrap: wrap;
 }
 
-#resume{
+#moreInfo, #behance{
   width: 100%;
   display:flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
-#resume a{
-  border: 2px solid #092545;
-  color: #092545;
-  padding: 0 10px;
+#behance{
+  justify-content: center;
+  font-size: 1.3em;
+}
+
+#behance a, #moreInfo a{
+  border: 2px solid #f7106b;
+  color: #f7106b;
+  padding: 2px 20px;
   transition: .5s;
   display: flex;
   border-radius: 3px;
   align-items: center;
-  font-size: 1rem !important;
+  font-size: 1.2em !important;
+  font-weight: 500;
 }
 
 .r-link:hover{
-  border: 2px solid #092545;
-  background-color: #092545;
+  border: 2px solid #f7106b;
+  background-color: #f7106b;
   color: white !important;
   padding: 0 10px;
   margin-left:10px;
@@ -216,8 +229,8 @@ hr{
 }
 
  .r-link:hover g[transform="matrix(1,0,0,1,12.562000274658203,12)"],.r-link:hover g[transform="matrix(1,0,0,1,12.562000274658203,12)"] *{
-  stroke: #092545 !important;
-  fill: #092545 !important;
+  stroke: #f7106b !important;
+  fill: #f7106b !important;
  }
 
 /*#dnload-btn path{
@@ -226,16 +239,16 @@ hr{
 }*/
 
  g[mask="url(#__lottie_element_14)"], g[mask="url(#__lottie_element_14)"] *{
-  stroke: #092545 !important;
-  fill: #092545 !important;
+  stroke: #f7106b !important;
+  fill: #f7106b !important;
  }
 
 .title > h1{
     display: flex;
-    /*justify-content: flex-end;*/
-    font-size: 7em !important;
+    justify-content: center;
+    font-size: 4em !important;
     color: #092545;
-    line-height: 90px;
+    line-height: 40px;
     font-weight: 600;
 }
 
@@ -260,7 +273,7 @@ hr{
 }
 
 .projects hr{
-      width: 40% !important;
+      width: 20% !important;
 }
 
 .tiles{
@@ -296,9 +309,31 @@ hr{
 .prjctImg{
   height: 80%;
   width: 100%;
-  background: url(appImg.png);
+  border-radius: 5px 5px 0 0;
   background-size: cover;
   background-position: center;
+}
+
+.first .prjctImg{
+  background-image: url(logofolio-1.png);
+}
+
+.second .prjctImg{
+  background-image: url(MTM_Logo-1.png);
+}
+
+.third .prjctImg{
+  background-image: url(DF-1.png);
+}
+
+.fourth .prjctImg{
+  background-image: url(crowdRadar-1.png);
+}
+
+.prjctCover{
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .description{
@@ -338,7 +373,7 @@ hr{
 }
 
 .contactMe{
-  margin: 30px auto 0 auto;
+  margin: 70px auto 0 auto;
   height: 350px;
   background: url(mailFlying.png);
   background-size: contain;
@@ -431,6 +466,24 @@ ul li:nth-child(4) a:before {
   color: #092545 !important;
 }
 
+.contactMe{
+  height: 270px;
+}
+
+.socialIcons ul{
+  justify-content: center;
+}
+
+.mail{
+  text-align: center;
+  margin: 0;
+}
+
+.titleRow{
+  justify-content: center;
+
+}
+
 
 /*region First project */
 .prjctIntro{
@@ -438,9 +491,13 @@ ul li:nth-child(4) a:before {
   /*height: 350px;*/
 }
 
+.prjctIntro .row{
+  justify-content: space-between;
+}
+
 .prjctIntro .col-md-6{
   background-color: #fff;
-  box-shadow:  0 0 5px 5px #545b6266;
+  /*box-shadow:  0 0 5px 5px #545b6266;*/
   border-radius: 5px;
   height: 550px;
 }
@@ -450,7 +507,10 @@ ul li:nth-child(4) a:before {
   align-content: center;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 3%;
+  /*flex: 0 0 45%;*/
+  /*max-width: 45%;*/
+  text-align: justify;
+  /*margin: 0 3%;*/
 }
 
 .prjctIntro hr{
@@ -462,10 +522,26 @@ ul li:nth-child(4) a:before {
   width: 100% !important;
 }
 
+.tools{
+  color: #aba9a9;
+  border-bottom: #aba9a9 solid 1px;
+}
+
+.prjctIntro img{
+  width: 25px;
+  margin: 5px 5px 0 0;
+}
+
 .infoImg{
-  height: 750px;
-  background-color: red;
+  /*height: 750px;*/
+  min-width: 250px;
+  min-height: 250px;
+  /*background-color: red;*/
   margin-bottom: 30px;
+}
+
+.infoImg img{
+  width: 100%;
 }
 
 /*footer*/
@@ -506,6 +582,10 @@ ul li:nth-child(4) a:before {
   /*z-index: 1;*/
 }
 
+#lF .wave2{
+  margin-top: -5%;
+}
+
 .wave2 + .wave2 {
   /*z-index: 2;*/
 }
@@ -521,7 +601,7 @@ ul li:nth-child(4) a:before {
 .aboutInfo{
   display: flex;
   flex-wrap: wrap;
-  height: 500px;
+  /*height: 500px;*/
   margin: 60px auto;
 }
 
@@ -529,44 +609,33 @@ ul li:nth-child(4) a:before {
   /*background-color: red;*/
   /*border-radius: 50%;*/
   background: url(user.png);
-  background-size: contain;
+  background-size: 90%;
   background-repeat: no-repeat;
   background-position: center;
 
 }
 
 .meInfo{
+  text-align: justify;
 }
 
 #aboutMe .title > h1 {
-  font-size: 3em !important;
   justify-content: center;
-  margin-bottom: -10px;
+  /*margin-bottom: -10px;*/
 }
 
-#aboutMe hr{
-  margin: auto;
+.meInfo .title > h1{
+  justify-content: left !important;
+}
+
+.meInfo hr{
+  margin-left: 0;
+}
+
+#contact hr{
+  /*margin: auto;*/
   height: 10px;
   width: 25% !important;
-}
-
-#aboutMe .contactMe{
-  background: none;
-  height: 270px;
-}
-
-#aboutMe .socialIcons ul{
-  justify-content: center;
-}
-
-#aboutMe .mail{
-  text-align: center;
-  margin: 0;
-}
-
-#aboutMe .titleRow{
-  justify-content: center;
-
 }
 
 /*endregion*/
@@ -575,7 +644,9 @@ ul li:nth-child(4) a:before {
 /*region CERTIFICATES*/
 
 .cert hr{
+  margin: 0 auto 20px auto;
   width: 15% !important;
+  height: 10px;
 }
 
 .cert{
@@ -599,12 +670,70 @@ ul li:nth-child(4) a:before {
 
 /*endregion*/
 
+/* region CROWD RADAR */
 
-@media only screen and (max-width: 768px) {
+#crowdR .title > h1{
+  justify-content: left;
+}
+
+#crowdR .prjctCover{
+  background-image: url(crowdRadar-2.png);
+
+}
+
+/*endregion*/
+
+/* region MTM */
+
+#mtm .title > h1{
+  justify-content: left;
+}
+
+#mtm .prjctCover{
+  background-image: url(MTM_Logo-2.png);
+
+}
+
+/*endregion*/
+
+/* region DYNAMIC FITNESS */
+
+#dF .title > h1{
+  justify-content: left;
+}
+
+#dF .prjctCover{
+  background-image: url(DF-2.png);
+
+}
+
+/*endregion*/
+
+/* region LOGOFOLIO */
+
+#lF .title > h1{
+  justify-content: left;
+}
+
+#lF .prjctCover{
+  background-image: url(logofolio-2.png);
+
+}
+
+/*endregion*/
+
+
+/*////////////// ***** MOBILE ***** //////////////////*/
+
+@media only screen and (max-width: 812px) {
 
 .navbar-nav > a {
     margin: auto !important;
-}  
+}
+
+.intro{
+  margin: 20px auto;
+}
 
 .title > h1{
   font-size: 3em !important;
@@ -619,21 +748,22 @@ ul li:nth-child(4) a:before {
 }
 
 .title > h1 {
-  line-height: 30px;
-  justify-content: flex-end;
+  line-height: 40px;
+  /*justify-content: flex-end;*/
+  text-align: center;
 }
 
-.title > h1:first-child{
-  padding-right: 22%;
-}
+/*.title > h1:first-child{*/
+/*  padding-right: 22%;*/
+/*}*/
 
 hr{
   width: 40% !important;
 }
 
-.projects .title > h1:first-child{
-  padding-right: 40%;
-}
+/*.projects .title > h1:first-child{*/
+/*  padding-right: 40%;*/
+/*}*/
 
 .projects hr{
   width: 45% !important;
@@ -643,9 +773,9 @@ hr{
   justify-content: center;
 }
 
-.title > h1:first-child {
-    padding-right: 0;
-}
+/*.title > h1:first-child {*/
+/*    padding-right: 0;*/
+/*}*/
 
 .contactMe hr{
     margin: auto;
@@ -681,10 +811,14 @@ ul li a {
   max-width: 90%;
     height: 55%;
 }*/
+
+  #aboutMe .title > h1{
+    margin-bottom: 20px;
+  }
 }
 
 
-@media only screen and (max-width: 768px) and (orientation: landscape){
+@media only screen and (max-width: 812px) and (orientation: landscape){
 
 .tiles .col-12{
   max-width: 50%;
