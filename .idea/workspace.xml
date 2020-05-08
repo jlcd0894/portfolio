@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="406e0243-19f5-4761-812e-b3e30af7b835" name="Default Changelist" comment="" />
+    <list default="true" id="406e0243-19f5-4761-812e-b3e30af7b835" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/D4PremiereCertificate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/DF-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/MTM_Logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/certificateAe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/certificatePr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/crowdRadar-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logofolio-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DF-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DF-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/DF-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTM_Logo-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTM_Logo-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/MTM_Logo-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTM_LogoFinal.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/MTM_LogoFinal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ai-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ar-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/appImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-radar.html" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-radar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdRadar-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdRadar-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/crowdRadar-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdRadarFinal.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/crowdRadarFinal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/designer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfFinal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dfFinal.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/download.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dw-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dw-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-fitness.html" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-fitness.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo-jc-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo-jc-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo-jc.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo-jc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logofolio-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logofolio-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logofolio-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logofolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/logofolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logofolio.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logofolio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailFlying.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/mailFlying.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtm.html" beforeDir="false" afterPath="$PROJECT_DIR$/mtm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ps-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ps-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrolldown.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrolldown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xd-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/xd-logo.png" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/certificates.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="403">
-              <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+              <caret line="46" column="84" selection-start-line="46" selection-start-column="84" selection-end-line="46" selection-end-column="84" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -257,12 +303,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588120854423</updated>
-      <workItem from="1588120855863" duration="33491000" />
+      <workItem from="1588120855863" duration="33242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33491000" />
+    <option name="totallyTimeSpent" value="33242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="801" extended-state="6" />
@@ -376,7 +422,7 @@
     <entry file="file://$PROJECT_DIR$/certificates.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
-          <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+          <caret line="46" column="84" selection-start-line="46" selection-start-column="84" selection-end-line="46" selection-end-column="84" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
