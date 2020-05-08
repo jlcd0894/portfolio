@@ -956,6 +956,19 @@ ul li a {
     margin-bottom: 20px;
   }
 
+  .caliSunset{
+    display: none;
+  }
+
+  .rightImg{
+    height: 300px;
+    margin-top: 30px;
+    background: url(../images/sunset.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
   #back2Top {
 
     left: calc(100vw - 60px);
@@ -983,6 +996,11 @@ ul li a {
 .tiles{
   height: 800px;
 }
+
+  .rightImg{
+    height: 250px;
+    margin-top: 0;
+  }
 
 
 }
