@@ -2,32 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="406e0243-19f5-4761-812e-b3e30af7b835" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DF-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DF-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTM_Logo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTM_Logo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTM_LogoFinal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ar-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowd-radar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdRadar-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdRadar-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdRadarFinal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dfFinal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logofolio-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logofolio-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logofolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logofolio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mtm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ps-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xd-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/D4PremiereCertificate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/DF-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/MTM_Logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/certificateAe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/certificatePr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/crowdRadar-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logofolio-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DF-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DF-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/DF-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTM_Logo-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTM_Logo-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/MTM_Logo-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTM_LogoFinal.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/MTM_LogoFinal.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download.json" beforeDir="false" afterPath="$PROJECT_DIR$/download.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ai-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ar-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/appImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowd-radar.html" beforeDir="false" afterPath="$PROJECT_DIR$/crowd-radar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdRadar-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdRadar-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/crowdRadar-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdRadarFinal.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/crowdRadarFinal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/designer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfFinal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dfFinal.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/download.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dw-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dw-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-fitness.html" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-fitness.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-fitness.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo-jc-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo-jc-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo-jc.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo-jc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logofolio-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logofolio-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logofolio-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logofolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/logofolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logofolio.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logofolio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailFlying.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/mailFlying.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtm.html" beforeDir="false" afterPath="$PROJECT_DIR$/mtm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ps-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ps-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrolldown.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrolldown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xd-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/xd-logo.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crowd-radar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+            <state relative-caret-position="371">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -87,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamic-fitness.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
+            <state relative-caret-position="77">
               <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
             </state>
           </provider>
@@ -102,29 +121,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="580" column="21" lean-forward="true" selection-start-line="580" selection-start-column="21" selection-end-line="580" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/certificates.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="403">
+              <caret line="46" column="84" selection-start-line="46" selection-start-column="84" selection-end-line="46" selection-end-column="84" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio.js">
+        <entry file="file://$PROJECT_DIR$/assets/css/portfolio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3030">
-              <caret line="202" selection-start-line="202" selection-end-line="202" />
+            <state relative-caret-position="269">
+              <caret line="686" column="22" selection-start-line="686" selection-start-column="22" selection-end-line="686" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/common/portfolio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -140,18 +164,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cert</find>
-      <find>h1</find>
-      <find>10px</find>
-      <find>projects hr</find>
-      <find>&gt; h1</find>
-      <find>-10</find>
-      <find>20px</find>
       <find>tiles</find>
       <find>contact</find>
       <find>img</find>
       <find>r-link</find>
-      <find>intro</find>
       <find>background:</find>
       <find>stroke</find>
       <find>json</find>
@@ -167,12 +183,23 @@
       <find>infoImg</find>
       <find>prjctCover</find>
       <find>.title</find>
-      <find>col-md-5</find>
       <find>wave2</find>
       <find>read</find>
+      <find>localhost/portfolio</find>
+      <find>redi</find>
+      <find>812</find>
+      <find>2400</find>
+      <find>col-md-5</find>
+      <find>col-md-6</find>
+      <find>intro</find>
+      <find>cert</find>
+      <find>hover</find>
     </findStrings>
     <replaceStrings>
       <replace>rediFade</replace>
+      <replace>josechavez.design</replace>
+      <replace>col-lg-5</replace>
+      <replace>col-lg-6</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -185,15 +212,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/portfolio.js" />
-        <option value="$PROJECT_DIR$/certificates.html" />
         <option value="$PROJECT_DIR$/about-me.html" />
         <option value="$PROJECT_DIR$/project-1.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/portfolio.css" />
         <option value="$PROJECT_DIR$/mtm.html" />
         <option value="$PROJECT_DIR$/dynamic-fitness.html" />
         <option value="$PROJECT_DIR$/logofolio.html" />
         <option value="$PROJECT_DIR$/crowd-radar.html" />
+        <option value="$PROJECT_DIR$/portfolio.css" />
+        <option value="$PROJECT_DIR$/assets/css/portfolio.css" />
+        <option value="$PROJECT_DIR$/certificates.html" />
       </list>
     </option>
   </component>
@@ -214,6 +242,17 @@
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -225,16 +264,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/common" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,12 +303,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588120854423</updated>
-      <workItem from="1588120855863" duration="26625000" />
+      <workItem from="1588120855863" duration="33242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26625000" />
+    <option name="totallyTimeSpent" value="33242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="801" extended-state="6" />
@@ -295,30 +339,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user.png">
+    <entry file="file://$PROJECT_DIR$/assets/images/user.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/download.svg">
+    <entry file="file://$PROJECT_DIR$/assets/images/download.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/download.json">
+    <entry file="file://$PROJECT_DIR$/assets/images/download.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7345" selection-start-column="7345" selection-end-column="7345" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3030">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/certificates.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -330,13 +360,6 @@
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="580" column="21" lean-forward="true" selection-start-line="580" selection-start-column="21" selection-end-line="580" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -361,13 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-fitness.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logofolio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -375,10 +391,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/common/portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crowd-radar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+        <state relative-caret-position="371">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-fitness.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="686" column="22" selection-start-line="686" selection-start-column="22" selection-end-line="686" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/certificates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="46" column="84" selection-start-line="46" selection-start-column="84" selection-end-line="46" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -95,7 +95,7 @@ body{
   height: 35px;
     width: 35px;
     margin: auto;
-  background:url(logo-jc-white.png);
+  background:url(../images/logo-jc-white.png);
   background-size: contain;
     background-repeat: no-repeat;
 }
@@ -145,8 +145,12 @@ body{
     margin: 100px auto;
 }
 
+.intro p{
+  font-weight: 400;
+}
+
 .rightImg{
-  background: url(designer.svg);
+  background: url(../images/designer.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -185,7 +189,7 @@ hr{
     flex-wrap: wrap;
 }
 
-#moreInfo, #behance{
+#moreInfo, #behance, #resume{
   width: 100%;
   display:flex;
   align-items: center;
@@ -195,9 +199,10 @@ hr{
 #behance{
   justify-content: center;
   font-size: 1.3em;
+  margin-top: 20px;
 }
 
-#behance a, #moreInfo a{
+#behance a, #moreInfo a, #resume a{
   border: 2px solid #f7106b;
   color: #f7106b;
   padding: 2px 20px;
@@ -315,19 +320,19 @@ hr{
 }
 
 .first .prjctImg{
-  background-image: url(logofolio-1.png);
+  background-image: url(../images/logofolio-1.png);
 }
 
 .second .prjctImg{
-  background-image: url(MTM_Logo-1.png);
+  background-image: url(../images/MTM_Logo-1.png);
 }
 
 .third .prjctImg{
-  background-image: url(DF-1.png);
+  background-image: url(../images/DF-1.png);
 }
 
 .fourth .prjctImg{
-  background-image: url(crowdRadar-1.png);
+  background-image: url(../images/crowdRadar-1.png);
 }
 
 .prjctCover{
@@ -339,12 +344,18 @@ hr{
 .description{
   height: 20%;
   width: 100%;
+  padding: 10px 40px;
 }
 
 .dTitle, .dDesc{
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.dDesc{
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .mainInfo{
@@ -375,7 +386,7 @@ hr{
 .contactMe{
   margin: 70px auto 0 auto;
   height: 350px;
-  background: url(mailFlying.png);
+  background: url(../images/mailFlying.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -495,14 +506,14 @@ ul li:nth-child(4) a:before {
   justify-content: space-between;
 }
 
-.prjctIntro .col-md-6{
+.prjctIntro .col-lg-6{
   background-color: #fff;
   /*box-shadow:  0 0 5px 5px #545b6266;*/
   border-radius: 5px;
   height: 550px;
 }
 
-.prjctIntro .col-md-5{
+.prjctIntro .col-lg-5{
   align-items: center;
   align-content: center;
   display: flex;
@@ -608,7 +619,7 @@ ul li:nth-child(4) a:before {
 .meImg{
   /*background-color: red;*/
   /*border-radius: 50%;*/
-  background: url(user.png);
+  background: url(../images/user.png);
   background-size: 90%;
   background-repeat: no-repeat;
   background-position: center;
@@ -652,6 +663,7 @@ ul li:nth-child(4) a:before {
 .cert{
   /*display: flex;*/
   margin: 60px auto;
+  min-height: calc(100vh - 66px - 280px);
 }
 
 .cert .row{
@@ -660,12 +672,40 @@ ul li:nth-child(4) a:before {
 
 .cTile{
   height: 175px;
+  text-align: center;
+  transition:all 0.3s ease;
+
+}
+
+.cTile a{
+  color: #262626;
+  text-decoration: none;
+  line-height: 10px;
+}
+
+.cTile:hover {
+  transform: scale(1.1);
+}
+
+.cTile p{
+  color: #888888;
 }
 
 .cImg{
   height: 50%;
   width: 100%;
-  background-color: red;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.AeC{
+  background-image: url(../images/certificateAe.png);
+}
+
+.PrC{
+  background-image: url(../images/certificatePr.png);
+
 }
 
 /*endregion*/
@@ -677,7 +717,7 @@ ul li:nth-child(4) a:before {
 }
 
 #crowdR .prjctCover{
-  background-image: url(crowdRadar-2.png);
+  background-image: url(../images/crowdRadar-2.png);
 
 }
 
@@ -690,7 +730,7 @@ ul li:nth-child(4) a:before {
 }
 
 #mtm .prjctCover{
-  background-image: url(MTM_Logo-2.png);
+  background-image: url(../images/MTM_Logo-2.png);
 
 }
 
@@ -703,7 +743,7 @@ ul li:nth-child(4) a:before {
 }
 
 #dF .prjctCover{
-  background-image: url(DF-2.png);
+  background-image: url(../images/DF-2.png);
 
 }
 
@@ -716,7 +756,7 @@ ul li:nth-child(4) a:before {
 }
 
 #lF .prjctCover{
-  background-image: url(logofolio-2.png);
+  background-image: url(../images/logofolio-2.png);
 
 }
 
@@ -732,7 +772,11 @@ ul li:nth-child(4) a:before {
 }
 
 .intro{
-  margin: 20px auto;
+  margin: 50px auto;
+}
+
+.intro h1, .intro p{
+  margin-bottom: 20px;
 }
 
 .title > h1{
@@ -740,11 +784,16 @@ ul li:nth-child(4) a:before {
 }
 
 .tiles{
-  height: 2400px;
+  height: 1500px;
 }
 
 .prjctImg{
   height: 65%;
+}
+
+.prjctCover{
+  background-size: contain;
+  height: 200px !important;
 }
 
 .title > h1 {
@@ -819,6 +868,18 @@ ul li a {
 
 
 @media only screen and (max-width: 812px) and (orientation: landscape){
+
+  .intro{
+    margin: 0px auto 50px auto;
+  }
+
+  .intro h1, .intro p{
+    margin-bottom: .5rem;
+  }
+
+  .description {
+    padding: 10px 10px;
+  }
 
 .tiles .col-12{
   max-width: 50%;
