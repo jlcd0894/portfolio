@@ -149,12 +149,12 @@ body{
   font-weight: 400;
 }
 
-.rightImg{
-  background: url(../images/designer.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
+/*.rightImg{*/
+/*  background: url(../images/designer.svg);*/
+/*  background-repeat: no-repeat;*/
+/*  background-position: center;*/
+/*  background-size: contain;*/
+/*}*/
 
 .aboutMe{
   margin: 30px auto 60px auto;
@@ -762,6 +762,97 @@ ul li:nth-child(4) a:before {
 
 /*endregion*/
 
+/* region BACK2TOP BUTTON */
+
+#back2Top {
+  width: 48px;
+  height: 48px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 50px;
+  left: calc(100vw - 100px);
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  background-image: url(../images/scrollTop.png);
+  background-size: contain;
+  background-position: center;
+  transition:background 0.5s ease;
+}
+#back2Top:hover {
+  color: #000;
+  background-image: url(../images/scrollTopHover.png);
+  /*transition:all 0.5s ease;*/
+
+}
+
+/*endregion*/
+
+
+/* region SUNSET SVG */
+
+.rightImg ul li:nth-child(1) {
+  /*top: 10px;*/
+  /*left: 45px !important;*/
+  z-index: 0;
+}
+
+.rightImg ul li:nth-child(2) {
+  top: 50% !important;
+  left: 0% !important;
+  z-index: 0;
+}
+.rightImg ul li:nth-child(3) {
+  top: 40% !important;
+  left: 20% !important;
+  z-index: 0;
+}
+.rightImg ul li:nth-child(4) {
+  top: 30% !important;
+  left: 45% !important;
+  z-index: 0;
+}
+.rightImg ul li:nth-child(5) {
+  top: 44% !important;
+  left: 75% !important;
+  z-index: 0;
+}
+.rightImg ul li:nth-child(6) {
+  top: 20% !important;
+  left: 65% !important;
+  z-index: 0;
+}
+.rightImg ul li:nth-child(7) {
+  top: 25% !important;
+  left: 15% !important;
+  z-index: 0;
+}
+.rightImg ul li:nth-child(8) {
+  top: 30% !important;
+  left: 45% !important;
+  z-index: 0;
+}
+.rightImg ul li:nth-child(9) {
+  top: 10% !important;
+  left: 35% !important;
+  z-index: 0;
+}
+
+.caliSunset{
+  padding: 0 !important;
+}
+
+.layer{
+  width: 100%;
+}
+
+/*endregion*/
+
 
 /*////////////// ***** MOBILE ***** //////////////////*/
 
@@ -864,6 +955,11 @@ ul li a {
   #aboutMe .title > h1{
     margin-bottom: 20px;
   }
+
+  #back2Top {
+
+    left: calc(100vw - 60px);
+  }
 }
 
 
@@ -890,3 +986,4 @@ ul li a {
 
 
 }
+
