@@ -224,6 +224,10 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 
+    if (isMobile===false){
+        $('.caliSunset').hide().fadeIn(2500);
+    }
+
     $('body').hide().fadeIn(500);
     $(".rediFade").click(function(e) {
         e.preventDefault();
