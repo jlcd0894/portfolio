@@ -618,8 +618,8 @@ ul li:nth-child(4) a:before {
 
 .meImg{
   /*background-color: red;*/
-  /*border-radius: 50%;*/
-  background: url(../images/user.png);
+  border-radius: 50%;
+  background: url(../images/JL-headshot.png);
   background-size: 90%;
   background-repeat: no-repeat;
   background-position: center;

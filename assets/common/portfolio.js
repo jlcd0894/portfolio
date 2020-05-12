@@ -221,6 +221,11 @@ $(document).ready(function() {
 });
 /*Scroll to top when arrow up clicked END*/
 
+function parallax() {
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+}
+
 
 $(document).ready(function() {
 
@@ -236,9 +241,7 @@ $(document).ready(function() {
           window.location =  $link; 
         });
     });
-
-    var scene = document.getElementById('scene');
-    var parallaxInstance = new Parallax(scene);
+    
 
     //Codigo CHINGON LIMON de macho
     function inViewPort(elem) {
@@ -272,4 +275,7 @@ $(document).ready(function() {
             }
         });
     }).scroll();
-});
+
+    if ($("body").hasClass("home")) {
+        parallax();
+    }});
