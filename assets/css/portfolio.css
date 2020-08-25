@@ -705,7 +705,26 @@ ul li:nth-child(4) a:before {
 
 .PrC{
   background-image: url(../images/certificatePr.png);
+}
 
+.UxC{
+  background-image: url(../images/certificateUX.png);
+}
+
+.GaC{
+  background-image: url(../images/certificateGA.png);
+}
+
+.UiC{
+  background-image: url(../images/certificateUI.png);
+}
+
+.XdC{
+  background-image: url(../images/certificateXd.png);
+}
+
+.WdC{
+  background-image: url(../images/certificateWD.png);
 }
 
 /*endregion*/
