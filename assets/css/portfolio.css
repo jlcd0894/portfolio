@@ -12,19 +12,18 @@ body{
     margin-left: auto;
 }
 
+.active{
+    position: relative;
+}
+
 .active:after{
-/*  bottom: -4px;
-    position: absolute;
-    content: '';
-    background: rgba(17, 17, 17, 1);
-    height: 2px;
-    width: 100%;*/
-    bottom: -4px;
+    bottom: 6px;
     position: absolute;
     content: '';
     height: 2px;
-    width: 0;
+    width: 100%;
     left: 0;
+    background: rgba(17, 17, 17, 1);
     -webkit-transition: width 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
     -o-transition: width 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
     transition: width 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -34,18 +33,18 @@ body{
 }
 
 
-}
-
-.navbar-brand{
+a.navbar-brand{
     letter-spacing: -0.03em;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 
 }
 
 .nav-item{
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
+    font-weight: 700;
 }
 
 .intro{
