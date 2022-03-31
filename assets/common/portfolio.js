@@ -9,6 +9,14 @@ if (isMobile===true) {
     $(".animated").attr( "data-animate-in", "fadeIn");
     $(".animated").attr( "data-animate-out", "fadeOut");
 }
+
+import Typewriter from 'typewriter-effect/dist/core';
+
+new Typewriter('#typewriter', {
+  strings: ['Hello', 'World'],
+  autoStart: true,
+});
+
 /*
 *   Wavify
 *   Jquery Plugin to make some nice waves
