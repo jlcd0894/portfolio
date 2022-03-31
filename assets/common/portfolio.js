@@ -10,12 +10,6 @@ if (isMobile===true) {
     $(".animated").attr( "data-animate-out", "fadeOut");
 }
 
-import Typewriter from 'typewriter-effect/dist/core';
-
-new Typewriter('#typewriter', {
-  strings: ['Hello', 'World'],
-  autoStart: true,
-});
 
 /*
 *   Wavify
