@@ -94,8 +94,8 @@ body{
 .navbar-brand{
   height: 35px;
     width: 35px;
-    margin: auto;
-  background:url(../images/logo-jc-white.png);
+/*    margin: auto;*/  
+/*  background:url(../images/logo-jc-white.png);*/
   background-size: contain;
     background-repeat: no-repeat;
 }
