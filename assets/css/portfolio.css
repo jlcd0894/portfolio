@@ -3,6 +3,6 @@ body{
   overflow-x: hidden;
  }
 
-.navbar .me_auto{
+.navbar-nav{
   margin-left: auto;
 }
