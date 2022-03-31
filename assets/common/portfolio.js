@@ -6,12 +6,12 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter.typeString("I'm a Web designer")
-    .pauseFor(2500)
+    .pauseFor(2000)
     .deleteAll()
-    .typeString('Based in San Diego')
-    .pauseFor(2500)
+    .typeString('Based in San Diego, CA')
+    .pauseFor(2000)
     .deleteAll()
-    .typeString('I like creating digital experiences')
+    .typeString('I like to create digital experiences')
     .pauseFor(2500)
     .start();
 
