@@ -78,6 +78,8 @@ a.navbar-brand{
 .browse{
       font-family: 'Raleway', sans-serif;
       font-weight: 100;
+      text-align: center;
+      padding-top: 10px;
 }
 
 
