@@ -75,6 +75,11 @@ a.navbar-brand{
     font-weight: 600;
     font-size: 80px;
 }
+.browse{
+      font-family: 'Raleway', sans-serif;
+      font-weight: 100;
+}
+
 
 /*Projects section*/
 
@@ -169,7 +174,9 @@ a.navbar-brand{
 
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
-
+     #app{
+          font-size: 30px;
+    }
 }
 
 /*// X-Small devices (portrait phones, less than 576px)*/

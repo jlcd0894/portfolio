@@ -5,14 +5,14 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString("I'm a Web designer")
-    .pauseFor(2000)
+typewriter.typeString("I'm a Web Designer.")
+    .pauseFor(1500)
     .deleteAll()
-    .typeString('Based in San Diego, CA')
-    .pauseFor(2000)
+    .typeString('Based in San Diego, CA.')
+    .pauseFor(1500)
     .deleteAll()
-    .typeString('I like to create digital experiences')
-    .pauseFor(2500)
+    .typeString('I like to create digital experiences.')
+    .pauseFor(2000)
     .start();
 
 
