@@ -5,6 +5,9 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
+var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
+var rootElement = document.documentElement;
+
 typewriter.typeString("I'm a Web Designer.")
     .pauseFor(1500)
     .deleteAll()
@@ -28,30 +31,51 @@ $grid.imagesLoaded().progress( function() {
   $grid.masonry();
 });
 
-
-/*Scroll to top when arrow up clicked BEGIN*/
-$(window).scroll(function() {
-    var height = $(window).scrollTop();
-    if (height > 300) {
-        $('#back2Top').fadeIn();
-    } else {
-        $('#back2Top').fadeOut();
-    }
-});
-$(document).ready(function() {
-    $("#back2Top").click(function(event) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
-    });
-
-});
-/*Scroll to top when arrow up clicked END*/
-
-function parallax() {
-    var scene = document.getElementById('scene');
-    var parallaxInstance = new Parallax(scene);
+function handleScroll() {
+  // Do something on scroll
+  var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+  if (rootElement.scrollTop / scrollTotal > 0.8) {
+    // Show button
+    scrollToTopBtn.classList.add("showBtn");
+  } else {
+    // Hide button
+    scrollToTopBtn.classList.remove("showBtn");
+  }
 }
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+scrollToTopBtn.addEventListener("click", scrollToTop);
+document.addEventListener("scroll", handleScroll);
+
+// /*Scroll to top when arrow up clicked BEGIN*/
+// $(window).scroll(function() {
+//     var height = $(window).scrollTop();
+//     if (height > 300) {
+//         $('#back2Top').fadeIn();
+//     } else {
+//         $('#back2Top').fadeOut();
+//     }
+// });
+// $(document).ready(function() {
+//     $("#back2Top").click(function(event) {
+//         event.preventDefault();
+//         $("html, body").animate({ scrollTop: 0 }, "slow");
+//         return false;
+//     });
+
+// });
+// /*Scroll to top when arrow up clicked END*/
+
+// function parallax() {
+//     var scene = document.getElementById('scene');
+//     var parallaxInstance = new Parallax(scene);
+// }
 
 particlesJS("particles-js", {
   particles: {

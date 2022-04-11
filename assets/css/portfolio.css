@@ -1,16 +1,16 @@
 body{
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
- }
+}
 
- h3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
- }
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
 
- /*loader*/
+/*loader*/
 
- body {
+body {
   margin: 0;
   padding: 0;
   width:100vw;
@@ -71,84 +71,84 @@ body{
 /*Navigation*/
 
 .navbar-nav{
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .navbar-light .navbar-nav .nav-link{
-    padding-right: 0!important;
-    padding-left: 0!important;
-    margin-left: 10px;
-    margin-right: 10px;
+  padding-right: 0!important;
+  padding-left: 0!important;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .active{
-    position: relative;
+  position: relative;
 }
 
 .active:after{
-    bottom: 6px;
-    position: absolute;
-    content: '';
-    height: 2px;
-    width: 100%;
-    left: 0;
-    background: rgba(17, 17, 17, 1);
-    -webkit-transition: width 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    -o-transition: width 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    transition: width 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    -o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  bottom: 6px;
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 100%;
+  left: 0;
+  background: rgba(17, 17, 17, 1);
+  -webkit-transition: width 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  -o-transition: width 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition: width 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  -o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
 }
 
 
 a.navbar-brand{
-    letter-spacing: -0.03em;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+  letter-spacing: -0.03em;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 
 }
 
 .nav-item{
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 /*Hero Section*/
 
 .intro{
-    height: 400px;
-    position: relative;
+  height: 400px;
+  position: relative;
 }
 
 .intro .row{
-    position: absolute;
-    bottom: 50px;
-    right: 0;
-    left: 0;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  left: 0;
 }
 
 #app{
-    font-family: 'Raleway';
-    font-weight: 600;
-    font-size: 80px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 80px;
 }
 .browse{
-      font-family: 'Raleway', sans-serif;
-      font-weight: 400;
-      text-align: center;
-      padding-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10px;
 }
 
 
 /*Projects section*/
 
 .projects{
-    background: black;
-    padding-top: var(--bs-gutter-x,.75rem);
-    padding-bottom: var(--bs-gutter-x,.75rem);
+  background: black;
+  padding-top: var(--bs-gutter-x,.75rem);
+  padding-bottom: var(--bs-gutter-x,.75rem);
 }
 
 
@@ -215,43 +215,73 @@ a.navbar-brand{
 
 /*// X-Large devices (large desktops, less than 1400px)*/
 @media (max-width: 1399.98px) {
-    #app{
-          font-size: 60px;
-    }
+  #app{
+    font-size: 60px;
+  }
 }
 
 /*// Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) {
-    #app{
-          font-size: 50px;
-    }
+  #app{
+    font-size: 50px;
+  }
 }
 
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
-    #app{
-          font-size: 40px;
-    }
+  #app{
+    font-size: 40px;
+  }
 }
 
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
-     #app{
-          font-size: 30px;
-    }
-    .intro .row{
-          top: 150px;
-    }
+ #app{
+  font-size: 30px;
+}
+.intro .row{
+  top: 150px;
+}
 }
 
 /*// X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
 
- }
+}
 
- /*Particles*/
+/*Scroll Top*/
 
- /* ---- reset ---- */
+.scrollToTopBtn {
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 48px;
+  width: 48px;
+
+  /* place it at the bottom right corner */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide with opacity */
+  opacity: 0;
+  /* also add a translate effect */
+  transform: translateY(100px);
+  /* and a transition */
+  transition: all 0.5s ease;
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*Particles*/
+
+/* ---- reset ---- */
 body {
   margin: 0;
   font: normal 75% Arial, Helvetica, sans-serif;
