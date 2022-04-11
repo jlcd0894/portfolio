@@ -153,10 +153,16 @@ a.navbar-brand{
 
 /*About Me Section*/
 .resume-btn{
-    border-radius: 50px;
-    background: transparent;
-    border-color: #232323;
-    color: #232323;
+    border-radius: 50px !important;
+    background: transparent !important;
+    border-color: #232323 !important;
+    color: #232323 !important;
+    border-width: 2px !important;
+}
+
+.resume-btn a{
+    color: black;
+    text-decoration: none !important;
 }
 
 
