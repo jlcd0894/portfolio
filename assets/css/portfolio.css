@@ -151,6 +151,14 @@ a.navbar-brand{
   padding-bottom: var(--bs-gutter-x,.75rem);
 }
 
+/*About Me Section*/
+.resume-btn{
+    border-radius: 50px;
+    background: transparent;
+    border-color: #232323;
+    color: #232323;
+}
+
 
 
 /*// Within style tags in your html file*/
