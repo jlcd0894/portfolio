@@ -152,6 +152,16 @@ a.navbar-brand{
 }
 
 /*About Me Section*/
+
+.about-title{
+  text-align: center;
+  padding: 75px 0 75px 0;
+}
+
+.about-main{
+  padding-bottom: 75px;
+}
+
 .resume-btn{
     border-radius: 50px !important;
     background: transparent !important;
@@ -161,16 +171,24 @@ a.navbar-brand{
     padding-left: 25px !important;
     padding-right: 25px !important;
     font-family: 'Raleway', sans-serif !important;
-    font-weight: 400 !important;
+    font-weight: 700 !important;
+    font-size: .7rem;
 }
 }
 
 .resume-btn a{
-    color: black;
+    color: black !important;
     text-decoration: none !important;
 }
 
+/*Contact Section*/
 
+#contact{
+  text-align: center;
+}
+
+
+/*GRID*/
 
 /*// Within style tags in your html file*/
 * { box-sizing: border-box; }
