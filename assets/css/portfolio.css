@@ -10,7 +10,7 @@ body {
   width:100vw;
   height: 100vh;
   background-color: #eee;
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif !important;
   overflow-x: hidden;
 }
 .content {
@@ -188,7 +188,18 @@ a.navbar-brand{
 
 #contact{
   text-align: center;
-  padding-bottom: 75px;
+  padding: 75px 0 75px 0;
+  background: #0e0e0e;
+  color: white;
+}
+
+/*Footer*/
+.footer{
+  text-align: center;
+  background: black;
+  color: #0e0e0e;
+  font-size: 14px;
+  padding: 10px 0 10px 0;
 }
 
 
