@@ -193,7 +193,7 @@ a.navbar-brand{
 
 #contact{
   text-align: center;
-  padding: 75px 0 75px 0;
+  padding: 75px 0 32px 0;
   background: black;
   color: white;
 }
@@ -391,7 +391,15 @@ canvas {
 }
 
 /*social icons*/
+.social-icons{
+padding-top: 32px;
+}
 
+.social-icons li{
+  display: inline-block;
+  color: white;
+  padding: 0 10px 0 10px;
+}
 
 
 
