@@ -144,7 +144,7 @@ a.navbar-brand{
 
 /*Projects section*/
 
-.projects{
+#projects{
   background: black;
   padding-top: var(--bs-gutter-x,.75rem);
   padding-bottom: var(--bs-gutter-x,.75rem);
