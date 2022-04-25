@@ -13,6 +13,11 @@ body {
   font-family: 'Raleway', sans-serif !important;
   overflow-x: hidden;
 }
+
+a{
+  color: #baceec;
+}
+
 .content {
   display: flex;
   justify-content: center;
@@ -158,7 +163,7 @@ a.navbar-brand{
 }
 
 .about-main{
-  padding-bottom: 75px;
+  padding-bottom: 50px;
 }
 
 .resume-btn{
@@ -181,7 +186,7 @@ a.navbar-brand{
 }
 
 .C-C{
-  padding-bottom: 75px;
+  padding: 50px, 0, 50px, 0;
 }
 
 /*Contact Section*/
