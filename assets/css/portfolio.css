@@ -124,6 +124,10 @@ a.navbar-brand{
 
 }
 
+.nav-social-icons a{
+  color: #676768!important;
+}
+
 .nav-item{
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
