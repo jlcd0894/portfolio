@@ -26,25 +26,6 @@ $(function () {
 });
 });
 
-//collapse navbar
-$(document).on('click',function(){ 
-    $('.navbar .collapse').collapse('hide');})
-
-//hamburger to X
-$(document).ready(function ($) {
-    $('.navbar-toggler-button').on('click', function () {
-  
-      $('.animated-hamburger').toggleClass('open');
-    });
-
-        $(document).click(function(event) {
-      var tover = $(event.target);
-    if ($('.animated-hamburger').hasClass('open') && !tover.hasClass('animated-hamburger')) {
-    $('.animated-hamburger').toggleClass('open');
-    }
-    });
-        
-});
 
 // init Masonry
 var $grid = $('.grid').masonry({
