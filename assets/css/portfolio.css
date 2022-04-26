@@ -418,6 +418,10 @@ padding-top: 32px;
   padding: 0 10px 0 10px;
 }
 
+.social-icons a{
+  color: #676768!important;
+}
+
 
 /*Mobile*/
 /* Extra small devices (phones, 600px and down) */
