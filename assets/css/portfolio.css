@@ -135,7 +135,7 @@ a.navbar-brand{
 .intro{
   height: 400px;
   position: relative;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 .intro .row{
@@ -207,7 +207,7 @@ a.navbar-brand{
   padding: 75px 0 32px 0;
   background: black;
   color: white;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 /*Footer*/
