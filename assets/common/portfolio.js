@@ -31,6 +31,12 @@ $(document).on('click',function(){
     $('.navbar .collapse').collapse('hide');
 })
 
+//Change active item in navbar
+$( '.navbar-nav a' ).on( 'click', function () {
+    $( '.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+    $( this ).parent( 'li' ).addClass( 'active' );
+});
+
 // init Masonry
 var $grid = $('.grid').masonry({
   itemSelector: '.grid-item',
