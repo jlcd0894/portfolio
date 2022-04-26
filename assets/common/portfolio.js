@@ -36,6 +36,14 @@ $(document).ready(function ($) {
   
       $('.animated-hamburger').toggleClass('open');
     });
+
+        $(document).click(function(event) {
+      var tover = $(event.target);
+    if ($('.animated-hamburger').hasClass('open') && !tover.hasClass('animated-hamburger')) {
+    $('.animated-hamburger').toggleClass('open');
+    }
+    });
+        
 });
 
 // init Masonry
