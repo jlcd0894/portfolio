@@ -169,6 +169,10 @@ a.navbar-brand{
 
 /*About Me Section*/
 
+#about-me{
+        scroll-margin-top: 100px;
+}
+
 .about-title{
   text-align: center;
   padding: 75px 0 75px 0;
@@ -204,7 +208,6 @@ a.navbar-brand{
 /*Contact Section*/
 
 #contact{
-      scroll-margin-top: 100px;
   text-align: center;
   padding: 75px 0 32px 0;
   background: black;
@@ -422,7 +425,7 @@ padding-top: 32px;
   #projects{
           scroll-margin-top: 250px;
   }
-  #contact{
+  #about-me{
       scroll-margin-top: 250px;
   }
 }
