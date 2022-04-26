@@ -164,6 +164,7 @@ a.navbar-brand{
   background: black;
   padding-top: var(--bs-gutter-x,.75rem);
   padding-bottom: var(--bs-gutter-x,.75rem);
+      scroll-margin-top: 100px;
 }
 
 /*About Me Section*/
@@ -203,6 +204,7 @@ a.navbar-brand{
 /*Contact Section*/
 
 #contact{
+      scroll-margin-top: 100px;
   text-align: center;
   padding: 75px 0 32px 0;
   background: black;
@@ -414,6 +416,16 @@ padding-top: 32px;
 }
 
 
+/*Mobile*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #projects{
+          scroll-margin-top: 250px;
+  }
+  #contact{
+      scroll-margin-top: 250px;
+  }
+}
 
 
 
