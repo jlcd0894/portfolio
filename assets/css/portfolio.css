@@ -129,6 +129,7 @@ a.navbar-brand{
 }
 
 .nav-social-icons li{
+    display: inline-block;
       padding: 0 5px 0 5px;
 }
 
