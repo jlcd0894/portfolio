@@ -26,6 +26,10 @@ $(function () {
 });
 });
 
+//collapse navbar
+$(document).on('click',function(){ 
+    $('.navbar .collapse').collapse('hide');
+})
 
 // init Masonry
 var $grid = $('.grid').masonry({
