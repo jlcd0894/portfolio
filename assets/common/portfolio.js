@@ -18,6 +18,17 @@ typewriter.typeString("I'm a Web Designer.")
     .pauseFor(2000)
     .start();
 
+//navbar color
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".sticky-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
+//collapse navbar
+$(document).on('click',function(){ 
+    $('.navbar .collapse').collapse('hide');})
 
 // init Masonry
 var $grid = $('.grid').masonry({
