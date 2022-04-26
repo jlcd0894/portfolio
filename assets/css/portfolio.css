@@ -60,7 +60,7 @@ a{
 }
     
 .animated-hamburger span {
-    background: #f3e5f5 !important;
+    background: black !important;
 }
     
 .animated-hamburger span:nth-child(1) {
