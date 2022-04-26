@@ -9,26 +9,41 @@ var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
 var rootElement = document.documentElement;
 
 typewriter.typeString("I'm a Web Designer.")
-    .pauseFor(1500)
-    .deleteAll()
-    .typeString('Based in San Diego, CA.')
-    .pauseFor(1500)
-    .deleteAll()
-    .typeString('I like to create digital experiences.')
-    .pauseFor(2000)
-    .start();
+.pauseFor(1500)
+.deleteAll()
+.typeString('Based in San Diego, CA.')
+.pauseFor(1500)
+.deleteAll()
+.typeString('I like to create digital experiences.')
+.pauseFor(2000)
+.start();
 
 //navbar color
 $(function () {
   $(document).scroll(function () {
     var $nav = $(".sticky-top");
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
+});
 });
 
 //collapse navbar
 $(document).on('click',function(){ 
     $('.navbar .collapse').collapse('hide');})
+
+    //hamburger to X
+    $(document).ready(function() {
+        $('.navbar-toggler-button').on('click', function() {
+          $('.animated-hamburger').toggleClass('open');
+      });
+        
+        $(document).click(function(event) {
+          var tover = $(event.target);
+          if ($('.animated-hamburger').hasClass('open') && !tover.hasClass('animated-hamburger')) {
+            $('.animated-hamburger').toggleClass('open');
+        }
+    });
+
+    });
 
 // init Masonry
 var $grid = $('.grid').masonry({
@@ -48,10 +63,10 @@ function handleScroll() {
   if (rootElement.scrollTop / scrollTotal > 0.5) {
     // Show button
     scrollToTopBtn.classList.add("showBtn");
-  } else {
+} else {
     // Hide button
     scrollToTopBtn.classList.remove("showBtn");
-  }
+}
 }
 
 function scrollToTop() {
@@ -59,7 +74,7 @@ function scrollToTop() {
   rootElement.scrollTo({
     top: 0,
     behavior: "smooth"
-  });
+});
 }
 scrollToTopBtn.addEventListener("click", scrollToTop);
 document.addEventListener("scroll", handleScroll);
@@ -97,25 +112,25 @@ particlesJS("particles-js", {
       stroke: { width: 0, color: "#9d9aca" },
       polygon: { nb_sides: 5 },
       image: { src: "img/github.svg", width: 100, height: 100 }
-    },
-    opacity: {
+  },
+  opacity: {
       value: 1,
       random: true,
       anim: { enable: true, speed: 1, opacity_min: 0, sync: false }
-    },
-    size: {
+  },
+  size: {
       value: 3,
       random: true,
       anim: { enable: false, speed: 4, size_min: 0.3, sync: false }
-    },
-    line_linked: {
+  },
+  line_linked: {
       enable: false,
       distance: 150,
       color: "#ffffff",
       opacity: 0.4,
       width: 1
-    },
-    move: {
+  },
+  move: {
       enable: true,
       speed: 1,
       direction: "none",
@@ -124,24 +139,24 @@ particlesJS("particles-js", {
       out_mode: "out",
       bounce: false,
       attract: { enable: false, rotateX: 600, rotateY: 600 }
-    }
-  },
-  interactivity: {
+  }
+},
+interactivity: {
     detect_on: "canvas",
     events: {
       onhover: { enable: true, mode: "bubble" },
       onclick: { enable: true, mode: "repulse" },
       resize: true
-    },
-    modes: {
+  },
+  modes: {
       grab: { distance: 400, line_linked: { opacity: 1 } },
       bubble: { distance: 250, size: 0, duration: 2, opacity: 0, speed: 3 },
       repulse: { distance: 400, duration: 0.4 },
       push: { particles_nb: 4 },
       remove: { particles_nb: 2 }
-    }
-  },
-  retina_detect: true
+  }
+},
+retina_detect: true
 });
 
 
