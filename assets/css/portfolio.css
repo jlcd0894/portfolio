@@ -143,6 +143,7 @@ a.navbar-brand{
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
   font-weight: 700;
+  display: flex;
 }
 
 /*Hero Section*/
