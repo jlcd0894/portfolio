@@ -130,8 +130,8 @@ a.navbar-brand{
 }
 
 .nav-social-icons li{
-    display: inline-block;
-      padding: 0 5px 0 5px;
+  display: inline-block;
+  padding: 0 5px 0 5px;
 }
 
 .nav-social-icons ul{
@@ -316,44 +316,6 @@ a.navbar-brand{
 }
 
 
-/*//Mobile//*/
-
-/*// X-Large devices (large desktops, less than 1400px)*/
-@media (max-width: 1399.98px) {
-  #app{
-    font-size: 60px;
-  }
-}
-
-/*// Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) {
-  #app{
-    font-size: 50px;
-  }
-}
-
-/*// Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
-  #app{
-    font-size: 40px;
-  }
-}
-
-/*// Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {
- #app{
-  font-size: 30px;
-}
-.intro .row{
-  top: 150px;
-}
-}
-
-/*// X-Small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
-
-}
-
 /*Scroll Top*/
 
 .scrollToTopBtn {
@@ -458,17 +420,43 @@ canvas {
 }
 
 
-/*Mobile*/
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  #projects{
-    /*scroll-margin-top: 250px;*/
-  }
-  #about-me{
-    /*scroll-margin-top: 250px;*/
+/*//Mobile//*/
+
+/*// X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {
+  #app{
+    font-size: 60px;
   }
 }
 
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+  #app{
+    font-size: 50px;
+  }
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+  #app{
+    font-size: 40px;
+  }
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+   #app{
+    font-size: 30px;
+  }
+  .intro .row{
+    top: 175px;
+  }
+}
+
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+}
 
 
 
