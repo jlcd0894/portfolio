@@ -26,10 +26,10 @@ $(function () {
 });
 });
 
-// //collapse navbar
-// $(document).on('click',function(){ 
-//     $('.navbar .collapse').collapse('hide');
-// })
+//collapse navbar
+$(document).on('click',function(){ 
+    $('.navbar .collapse').collapse('hide');
+})
 
 // //Change active item in navbar
 // $( '.navbar-nav a' ).on( 'click', function () {
