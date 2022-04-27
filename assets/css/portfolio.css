@@ -19,7 +19,7 @@ a{
   color: #baceec;
 }
 
-.sticky-top.scrolled {
+.fixed-top.scrolled {
   background-color: #fff !important;
   transition: background-color 200ms linear;
 }
