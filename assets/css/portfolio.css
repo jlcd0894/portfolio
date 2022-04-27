@@ -319,7 +319,8 @@ a.navbar-brand{
 /*Scroll Top*/
 
 .scrollToTopBtn {
-  background-color: black;
+  /*background-color: black;*/
+  background: linear-gradient(145deg, rgba(255, 0, 49, 0.94) 0%, rgba(224, 0, 254, 0.83) 100%);
   border: none;
   color: white;
   cursor: pointer;
@@ -403,6 +404,7 @@ canvas {
 /*social icons*/
 .social-icons{
   padding-top: 32px;
+  padding-left: 0;
 }
 
 .social-icons li{
