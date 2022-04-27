@@ -21,7 +21,7 @@ typewriter.typeString("I'm a Web Designer.")
 //navbar color
 $(function () {
   $(document).scroll(function () {
-    var $nav = $(".sticky-top");
+    var $nav = $(".fixed-top");
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 });
 });
