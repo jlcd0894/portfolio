@@ -92,6 +92,11 @@ a{
   margin-right: 10px;
 }
 
+.nav-social-icons{
+  margin-bottom: 0!important;
+  padding-left: 0!important;
+}
+
 .active{
   position: relative;
 }
@@ -253,6 +258,12 @@ a.navbar-brand{
   -webkit-text-fill-color: transparent;
 }
 
+.letsWorkSub{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*Footer*/
 #footer{
   text-align: center;
@@ -260,6 +271,16 @@ a.navbar-brand{
   color: #616161;
   font-size: 14px;
   padding: 10px 0 10px 0;
+}
+
+.footerMain{
+  padding-bottom: 40px;
+}
+
+.footerSub{
+  padding-bottom: 40px;
+  padding-top: 40px;
+
 }
 
 
@@ -455,12 +476,40 @@ canvas {
 
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
-   #app{
-    font-size: 30px;
-  }
-  .intro .row{
-    top: 175px;
-  }
+ #app{
+  font-size: 30px;
+}
+.intro .row{
+  top: 175px;
+}
+.letsWork{
+  font-size: 40px;
+}
+.letsWorkSub{
+  width: 100%;
+  font-size: .95em;
+}
+.footerMain{
+  padding-bottom: 20px;
+}
+.footerSub div{
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 25px;
+}
+
+.c-c div:nth-of-type(3) { 
+    margin-top: 25px;
+}
+#about-me{
+  padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+.about-main img{
+  margin-bottom: 25px;
+  
+}
 }
 
 /*// X-Small devices (portrait phones, less than 576px)*/
