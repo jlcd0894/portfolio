@@ -235,15 +235,16 @@ a.navbar-brand{
   padding: 16px 32px;
   position: relative;
   top: 35%;
+    font-family: 'Monoton', sans-serif;
 }
 
 .project-name-sub {
   color: white;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 500;
   padding: 16px 32px;
   position: relative;
-  top: 45%;
+  top: 27%;
 }
 
 /*About Me Section*/
