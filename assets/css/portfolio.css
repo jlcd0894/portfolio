@@ -223,7 +223,7 @@ a.navbar-brand{
 
 .project-anchor:hover .project-desc {
   opacity: 1;
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(21, 22, 120, 0.75);
 }
 
 .project-name {
