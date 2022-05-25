@@ -211,21 +211,27 @@ a.navbar-brand{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 .project-anchor:hover .MP-image {
-  opacity: 0.3;
+  /*opacity: 0.3;*/
 }
 
 .project-anchor:hover .project-desc {
   opacity: 1;
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 .project-name {
-  background-color: #04AA6D;
+  /*background-color: #04AA6D;*/
   color: white;
-  font-size: 16px;
+  font-size: 24px;
+  font-weight: 500;
   padding: 16px 32px;
+  position: relative;
+  top: 40%;
 }
 
 /*About Me Section*/
@@ -390,6 +396,7 @@ a.navbar-brand{
 
 .grid-item {
   float: left;
+  overflow: hidden;
 }
 
 .grid-item img {
