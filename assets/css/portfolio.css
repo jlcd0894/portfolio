@@ -201,6 +201,7 @@ a.navbar-brand{
 
 .about-main{
   padding-bottom: 50px;
+  line-height: 1.7em;
 }
 
 .resume-btn{
@@ -283,6 +284,9 @@ a.navbar-brand{
 
 }
 
+.copyright{
+  text-align: right;
+}
 
 /*GRID*/
 
@@ -492,24 +496,41 @@ canvas {
 .footerMain{
   padding-bottom: 20px;
 }
+
+
 .footerSub div{
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  margin-bottom: 25px;
+/*  padding-bottom: 20px;
+  padding-top: 20px;*/
+  margin-bottom: 10px;
 }
 
-.c-c div:nth-of-type(3) { 
-    margin-top: 25px;
+.footerSub {
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
+
+.copyright{
+  text-align: left;
+}
+
+.C-C h3 { 
+    padding-bottom: 20px;
+}
+
+.cert{
+  margin-top: 30px;
+}
+
 #about-me{
   padding-right: 1.5em;
     padding-left: 1.5em;
 }
+
 .about-main img{
   margin-bottom: 25px;
-  
 }
+
 }
 
 /*// X-Small devices (portrait phones, less than 576px)*/
