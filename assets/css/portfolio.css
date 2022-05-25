@@ -233,6 +233,10 @@ a.navbar-brand{
     border-bottom: 1px solid #e50252;
 }
 
+.C-C a:hover{
+  color: #e20258;
+}
+
 /*Contact Section*/
 
 #contact{
