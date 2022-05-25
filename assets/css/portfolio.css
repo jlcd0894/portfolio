@@ -200,6 +200,7 @@ a.navbar-brand{
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  transform: scale(1.1);
 }
 
 .project-desc {
@@ -213,6 +214,7 @@ a.navbar-brand{
   text-align: center;
   width: 100%;
   height: 100%;
+  transform: scale(1.1) translate(-46%, -46%);
 }
 
 .project-anchor:hover .MP-image {
