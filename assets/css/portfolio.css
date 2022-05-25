@@ -227,6 +227,12 @@ a.navbar-brand{
   padding: 50px 0 50px 0;
 }
 
+.C-C a{
+    color: #4e4e4e;
+    text-decoration: none;
+    border-bottom: 1px solid #e50252;
+}
+
 /*Contact Section*/
 
 #contact{
@@ -499,7 +505,7 @@ canvas {
 
 
 .footerSub div{
-  text-align: center;
+  /*text-align: center;*/
 /*  padding-bottom: 20px;
   padding-top: 20px;*/
   margin-bottom: 10px;
@@ -519,7 +525,7 @@ canvas {
 }
 
 .cert{
-  margin-top: 30px;
+  margin-top: 30px !important;
 }
 
 #about-me{
