@@ -263,7 +263,7 @@ a.navbar-brand{
   color: white;
   font-size: 56px;
   font-weight: 500;
-  padding: 16px 32px;
+  /*padding: 16px 32px;*/
   position: relative;
   top: 50%;
   transform: translateY(-50%);
