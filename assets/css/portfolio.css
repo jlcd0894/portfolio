@@ -224,7 +224,38 @@ a.navbar-brand{
 
 .tms .project-anchor:hover .project-desc {
   opacity: 1;
+  /*background-image: linear-gradient(315deg, rgb(34 37 203 / 89%), rgb(225 49 244 / 81%));*/
+  background-image: linear-gradient(72deg, #0a58cad4, #e9ecefcc);
+    transform: scale(1.1) translate(-46%, -46%);
+}
+
+.amasa .project-anchor:hover .project-desc {
+  opacity: 1;
+  background-image: linear-gradient(140deg, #198754c9, #0a58cad1);
+    transform: scale(1.1) translate(-46%, -46%);
+}
+
+.video .project-anchor:hover .project-desc {
+  opacity: 1;
   background-image: linear-gradient(315deg, rgb(34 37 203 / 89%), rgb(225 49 244 / 81%));
+    transform: scale(1.1) translate(-46%, -46%);
+}
+
+.wg .project-anchor:hover .project-desc {
+  opacity: 1;
+  background-image: linear-gradient(143deg, #198754e6, #d16119cc);
+    transform: scale(1.1) translate(-46%, -46%);
+}
+
+.mim .project-anchor:hover .project-desc {
+  opacity: 1;
+  background-image: linear-gradient(356deg, #dc3545d6, #e39d28c7);
+    transform: scale(1.1) translate(-46%, -46%);
+}
+
+.gpc .project-anchor:hover .project-desc {
+  opacity: 1;
+  background-image: linear-gradient(45deg, #9208c5d4, #2882e3c7);
     transform: scale(1.1) translate(-46%, -46%);
 }
 
