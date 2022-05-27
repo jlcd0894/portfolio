@@ -133,6 +133,7 @@ a.navbar-brand{
 .nav-social-icons a{
   color: #676768!important;
   transition: .5s ease;
+  opacity: .5;
 }
 
 .nav-social-icons a:hover{
@@ -140,6 +141,7 @@ a.navbar-brand{
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     transition: .5s ease;
+    opacity: 1;
 }
 
 .nav-social-icons li{
@@ -361,14 +363,14 @@ a.navbar-brand{
       transition: .5s ease;
 }
 
-#contact a: hover{
+#contact a:hover{
   /*color: #777777;*/
   text-decoration: none;
   font-weight: 500;
   background: linear-gradient(290deg, rgb(126 135 234 / 94%) 0%, rgba(224, 0, 254, 0.83) 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
-      transition: .5s ease;
+  transition: .5s ease;
 }
 
 .letsWork{
