@@ -379,7 +379,7 @@ a.navbar-brand{
 }
 
 .letsWorkSub a{
-      background: linear-gradient(145deg, rgb(126 135 234 / 94%) 0%, rgba(224, 0, 254, 0.83) 100%) !important;
+      background: linear-gradient(145deg, rgb(213 0 129) 0%, rgba(224, 0, 254, 0.83) 100%) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     font-weight: 600;
