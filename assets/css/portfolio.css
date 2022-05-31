@@ -131,17 +131,16 @@ a.navbar-brand{
 }
 
 .nav-social-icons a{
-  color: #676768!important;
+  color: black!important;
   transition: .5s ease;
-  opacity: .5;
 }
 
 .nav-social-icons a:hover{
-  background: linear-gradient(137deg, rgb(126 135 234 / 94%) 0%, rgba(224, 0, 254, 0.83) 100%) !important;
+/*  background: linear-gradient(137deg, rgb(126 135 234 / 94%) 0%, rgba(224, 0, 254, 0.83) 100%) !important;
     -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
+    -webkit-text-fill-color: transparent !important;*/
     transition: .5s ease;
-    opacity: 1;
+    color: #0000006b;
 }
 
 .nav-social-icons li{
