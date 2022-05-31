@@ -323,6 +323,11 @@ a.navbar-brand{
   text-decoration: none !important;
 }
 
+.resume-btn:hover{
+  background: #232323!important;
+  color: white !important;
+}
+
 .C-C{
   padding: 50px 0 50px 0;
 }
