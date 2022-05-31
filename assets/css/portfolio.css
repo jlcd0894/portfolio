@@ -140,7 +140,7 @@ a.navbar-brand{
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;*/
     transition: .5s ease;
-    color: #0000006b;
+    color: #0000006b !important;
 }
 
 .nav-social-icons li{
