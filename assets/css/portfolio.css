@@ -382,7 +382,7 @@ a.navbar-brand{
       background: linear-gradient(145deg, rgb(213 0 129) 0%, rgba(224, 0, 254, 0.83) 100%) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .letsWorkSub{
