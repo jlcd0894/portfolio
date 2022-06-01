@@ -373,6 +373,7 @@ a.navbar-brand{
   font-weight: 500;
   color: #ce0094;
   transition: .5s ease;
+  opacity: 1;
 }
 
 .letsWork{
@@ -389,6 +390,7 @@ a.navbar-brand{
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     font-weight: 500;
+    opacity: .8;
 }
 
 .letsWorkSub{
