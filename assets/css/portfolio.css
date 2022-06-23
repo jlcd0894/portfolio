@@ -507,8 +507,8 @@ a.navbar-brand{
 
 }
 
-.prjctDesc h1{
-    padding-bottom: 20px;
+.prjctInfo h4{
+    /*padding-bottom: 20px;*/
     font-weight: 600;
 }
 
@@ -517,22 +517,25 @@ a.navbar-brand{
 }
 
 .Overlays{
-    padding: 0;
-  width: 100%;
-  min-height: 50vh;
-  background-image: url(https://www.josechavez.design/assets/images/test-overlays.png);
+  border-radius: 5px;
+  /*max-height: 50vh;*/
+/*  background-image: url(https://www.josechavez.design/assets/images/test-overlays.png);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
 
 .mission{
-  width: 60%;
+  width: 60% !important;
 }
 
 .mission h3{
   padding-bottom: 5px;
     font-weight: 600;
+}
+
+.sitemap, .sketch{
+  max-height: 80vh;
 }
 
 
