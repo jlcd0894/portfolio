@@ -484,6 +484,12 @@ a.navbar-brand{
 
 
 /*Case Studies*/
+
+#cs-main-content h3{
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+}
+
 .container-fluid{
   padding: 0;
 }
@@ -498,13 +504,19 @@ a.navbar-brand{
   background-repeat: no-repeat;
 }
 
-.prjctInfo{
+/*.prjctInfo{
   padding: 50px 0;
-}
+}*/
 
 .prjctDesc{
   padding-right: 10em !important;
 
+}
+
+.prjctInfo h1{
+  font-size: 3.6rem;
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
 }
 
 .prjctInfo h4{
@@ -516,17 +528,13 @@ a.navbar-brand{
   font-weight: 600;
 }
 
-.Overlays{
-  border-radius: 5px;
-  /*max-height: 50vh;*/
-/*  background-image: url(https://www.josechavez.design/assets/images/test-overlays.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;*/
+.img-fluid{
+  border-radius: 5px !important;
 }
 
 section{
     margin: 50px 0;
+    padding: 50px 0;
 }
 
 .mission{
