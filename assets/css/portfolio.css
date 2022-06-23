@@ -503,7 +503,7 @@ a.navbar-brand{
 }
 
 .prjctDesc{
-  padding: 0 10em 0 0;
+  padding-right: 10em !important;
 
 }
 
@@ -516,8 +516,23 @@ a.navbar-brand{
   font-weight: 600;
 }
 
+.Overlays{
+    padding: 0;
+  width: 100%;
+  min-height: 50vh;
+  background-image: url(https://www.josechavez.design/assets/images/test-overlays.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .mission{
-  width: 50%;
+  width: 60%;
+}
+
+.mission h3{
+  padding-bottom: 5px;
+    font-weight: 600;
 }
 
 
