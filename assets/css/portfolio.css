@@ -499,7 +499,7 @@ a.navbar-brand{
 }
 
 .prjctInfo{
-  padding: 4rem 0;
+  padding: 50px 0;
 }
 
 .prjctDesc{
@@ -525,17 +525,17 @@ a.navbar-brand{
   background-repeat: no-repeat;*/
 }
 
+section{
+    margin: 50px 0;
+}
+
 .mission{
-  width: 60% !important;
+  padding: 50px 0;
 }
 
 .mission h3{
   padding-bottom: 5px;
-    font-weight: 600;
-}
-
-.sitemap, .sketch{
-  max-height: 80vh;
+  font-weight: 600;
 }
 
 
