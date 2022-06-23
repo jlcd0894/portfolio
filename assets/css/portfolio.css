@@ -484,10 +484,40 @@ a.navbar-brand{
 
 
 /*Case Studies*/
+.container-fluid{
+  padding: 0;
+}
+
 .hero-img{
+  padding: 0;
   width: 100%;
   min-height: 100vh;
   background-image: url(https://www.josechavez.design/assets/images/test-hero-img.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.prjctInfo{
+  padding: 4rem 0;
+}
+
+.prjctDesc{
+  padding: 0 10em 0 0;
+
+}
+
+.prjctDesc h1{
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.prjctData h6{
+  font-weight: 600;
+}
+
+.mission{
+  width: 50%;
 }
 
 
