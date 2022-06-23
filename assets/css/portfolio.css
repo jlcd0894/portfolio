@@ -491,6 +491,11 @@ a.navbar-brand{
     font-size: 2.6rem;
 }
 
+#cs-main-content p{
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
 .container-fluid{
   padding: 0;
 }
@@ -510,8 +515,11 @@ a.navbar-brand{
 }*/
 
 .prjctDesc{
-  padding-right: 10em !important;
+  /*padding-right: 10em !important;*/
+}
 
+.prjctData{
+  margin-left: auto;
 }
 
 .prjctInfo h1{
