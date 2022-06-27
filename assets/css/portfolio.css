@@ -544,8 +544,28 @@ a.navbar-brand{
 
 section{
     /*margin: 50px 0;*/
-    padding: 40px 0;
+    padding: 50px 0;
 }
+
+section .row{
+ align-items: center;
+}
+
+.annotated-visual__line {
+    display: none;
+}
+
+
+@media (min-width: 1024px){
+  .annotated-visual__line {
+    height: 2px;
+    stroke: #0163bc;
+    stroke-width: 4px;
+    display: block;
+    width: 100%;
+}
+}
+
 
 .mission{
   /*padding: 50px 0;*/
