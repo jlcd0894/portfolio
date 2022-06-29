@@ -576,6 +576,32 @@ section .row{
   font-weight: 600;
 }
 
+/*Hover Animation*/
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom left;
+  transition: transform 0.35s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 
 /*Scroll Top*/
 
