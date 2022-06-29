@@ -587,7 +587,7 @@ section .row{
 
 .next h1{
   text-align: right;
-  font-size: 1.5rem;
+  /*font-size: 1.5rem;*/
 }
 
 .gallery a{
@@ -629,13 +629,13 @@ section .row{
   left: 0;
   background-color: black;
   transform-origin: bottom left;
-  /*transition: transform 0.35s ease-out;*/
-  -webkit-transition: width .3s cubic-bezier(.215,.61,.355,1);
+  transition: transform 0.35s ease-out;
+/*  -webkit-transition: width .3s cubic-bezier(.215,.61,.355,1);
   -o-transition: width .3s cubic-bezier(.215,.61,.355,1);
   transition: width .3s cubic-bezier(.215,.61,.355,1);
   -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1);
   -o-transition-timing-function: cubic-bezier(.215,.61,.355,1);
-  transition-timing-function: cubic-bezier(.215,.61,.355,1);
+  transition-timing-function: cubic-bezier(.215,.61,.355,1);*/
 }
 
 .hover-underline-animation-left:hover:after {
@@ -658,7 +658,7 @@ section .row{
   bottom: -5px;
   left: 0;
   background-color: black;
-  transform-origin: bottom left;
+  transform-origin: bottom right;
   /*transition: transform 0.35s ease-out;*/
   -webkit-transition: width .3s cubic-bezier(.215,.61,.355,1);
   -o-transition: width .3s cubic-bezier(.215,.61,.355,1);
