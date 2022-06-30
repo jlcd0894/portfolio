@@ -344,11 +344,13 @@ a.navbar-brand{
 .C-C a{
   color: #4e4e4e;
   text-decoration: none;
-  border-bottom: 1px solid #e50252;
+  border-bottom: 1px solid black;
+  transition: .5s ease;
 }
 
 .C-C a:hover{
-  color: #e20258;
+  color: #f6328e;
+  border-bottom: solid 1px #f6328e;
 }
 
 /*Contact Section*/
@@ -414,14 +416,14 @@ a.navbar-brand{
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #e50252;
-  transform-origin: bottom right;
+  background-color: #f6328e;
+  transform-origin: bottom left;
   transition: transform 0.35s ease-out;
 }
 
 .letsWorkSub a:hover:after {
   transform: scaleX(1);
-  transform-origin: bottom right;
+  transform-origin: bottom left;
 }
 
 .letsWorkSub{
