@@ -492,7 +492,7 @@ a.navbar-brand{
   margin-bottom: 1.5rem;
 }
 
-#cs-main-content p{
+#cs-main-content section p{
   font-size: 18px;
   line-height: 1.6em;
 }
@@ -586,7 +586,6 @@ section .row{
 }
 
 .next h1{
-  /*text-align: right;*/
   font-size: 1.5rem;
 }
 
@@ -653,13 +652,7 @@ section .row{
   left: 0;
   background-color: black;
   transform-origin: bottom right;
-  /*transition: transform 0.35s ease-out;*/
-  -webkit-transition: width .3s cubic-bezier(.215,.61,.355,1);
-  -o-transition: width .3s cubic-bezier(.215,.61,.355,1);
-  transition: width .3s cubic-bezier(.215,.61,.355,1);
-  -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1);
-  -o-transition-timing-function: cubic-bezier(.215,.61,.355,1);
-  transition-timing-function: cubic-bezier(.215,.61,.355,1);
+  transition: transform 0.35s ease-out;
 }
 
 .hover-underline-animation-right:hover:after {
@@ -829,6 +822,14 @@ canvas {
   padding-bottom: 20px;
 }
 
+.prev h1{
+  font-size: 1.3rem;
+}
+
+.next h1{
+  font-size: 1.3rem;
+}
+
 
 .footerSub div{
   /*text-align: center;*/
@@ -844,6 +845,11 @@ canvas {
 
 .copyright{
   text-align: left;
+}
+
+.mobile-revers-column{
+  display: flex;
+  flex-flow: column-reverse;
 }
 
 .C-C h3 { 
