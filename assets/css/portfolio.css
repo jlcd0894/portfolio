@@ -617,13 +617,13 @@ section .row{
 
 /*Hover Animation*/
 
-.hover-underline-animation-left {
+a .hover-underline-animation-left {
   display: inline-block;
   position: relative;
   color: black;
 }
 
-.hover-underline-animation-left:after {
+a :after .hover-underline-animation-left {
   content: '';
   position: absolute;
   width: 100%;
@@ -636,7 +636,7 @@ section .row{
   transition: transform 0.35s ease-out;
 }
 
-.hover-underline-animation-left:hover:after {
+a:hover:after .hover-underline-animation-left{
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -875,7 +875,7 @@ canvas {
 }
 
 .title-margin{
-  margin-top: none;
+  margin-top: initial;
 }
 
 }
