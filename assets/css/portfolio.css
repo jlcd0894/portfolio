@@ -620,10 +620,10 @@ section .row{
 a h1 {
   display: inline-block;
   position: relative;
-  color: black;
+  color: red;
 }
 
-a:after h1 {
+a h1:after {
   content: '';
   position: absolute;
   width: 100%;
@@ -636,7 +636,7 @@ a:after h1 {
   transition: transform 0.35s ease-out;
 }
 
-a:hover:after h1{
+a:hover h1: after{
   transform: scaleX(1);
   transform-origin: bottom left;
 }
