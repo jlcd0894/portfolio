@@ -489,12 +489,13 @@ a.navbar-brand{
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   font-size: 2.6rem;
-  margin-bottom: 1.5rem;
+  /*margin-bottom: 1.5rem;*/
 }
 
 #cs-main-content section p{
   font-size: 18px;
   line-height: 1.6em;
+  margin: 1rem 0 2.5rem 0;
 }
 
 .container-fluid{
@@ -511,9 +512,9 @@ a.navbar-brand{
   background-repeat: no-repeat;
 }
 
-/*.prjctInfo{
-  padding: 50px 0;
-}*/
+.prjctInfo p{
+  margin: initial;
+}
 
 .prjctDesc{
   /*padding-right: 10em !important;*/
