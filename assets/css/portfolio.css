@@ -617,13 +617,13 @@ section .row{
 
 /*Hover Animation*/
 
-a h1 {
+.prev a h1 {
   display: inline-block;
   position: relative;
-  color: red;
+  color: black;
 }
 
-a h1:after {
+.prev a h1:after {
   content: '';
   position: absolute;
   width: 100%;
@@ -636,18 +636,18 @@ a h1:after {
   transition: transform 0.35s ease-out;
 }
 
-a:hover h1:after{
+.prev a:hover h1:after{
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-.hover-underline-animation-right {
+.next a h1 {
   display: inline-block;
   position: relative;
   color: black;
 }
 
-.hover-underline-animation-right:after {
+.next a h1:after {
   content: '';
   position: absolute;
   width: 100%;
@@ -660,7 +660,7 @@ a:hover h1:after{
   transition: transform 0.35s ease-out;
 }
 
-.hover-underline-animation-right:hover:after {
+.next a:hover h1:after {
   transform: scaleX(1);
   transform-origin: bottom right;
 }
