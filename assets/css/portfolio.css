@@ -636,7 +636,7 @@ a h1:after {
   transition: transform 0.35s ease-out;
 }
 
-a:hover h1: after{
+a:hover h1:after{
   transform: scaleX(1);
   transform-origin: bottom left;
 }
