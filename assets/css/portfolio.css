@@ -565,7 +565,7 @@ section .row{
 @media (min-width: 1024px){
   .annotated-visual__line {
     height: 2px;
-    stroke: #0163bc;
+    stroke: #f6328e;
     stroke-width: 4px;
     display: block;
     width: 100%;
