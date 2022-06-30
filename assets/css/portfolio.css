@@ -623,7 +623,7 @@ a .hover-underline-animation-left {
   color: black;
 }
 
-a :after .hover-underline-animation-left {
+a:after .hover-underline-animation-left {
   content: '';
   position: absolute;
   width: 100%;
