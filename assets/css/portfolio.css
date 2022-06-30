@@ -620,7 +620,7 @@ section .row{
 .hover-underline-animation-left {
   display: inline-block;
   position: relative;
-  /*color: black;*/
+  color: black;
 }
 
 .hover-underline-animation-left:after {
