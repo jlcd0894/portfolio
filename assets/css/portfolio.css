@@ -37,7 +37,9 @@ a{
 
 .loader-wrapper {
   width: 100%;
-  height: 100vh;
+  /*height: 100vh;*/
+  
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -51,7 +53,11 @@ a{
   display: inline-block;
   width: 30px;
   height: 30px;
-  position: relative;
+  /*position: relative;*/
+  position: fixed;
+  left: 50%;
+  top: 50%;
+
   border: 4px solid #Fff;
   animation: loader 2s infinite ease;
 }
@@ -617,11 +623,11 @@ section .row{
 }
 
 .prev h6, .next h6{
-    color: #979797;
-    font-size: .8rem;
-    display: inline-block;
-    margin-bottom: 0;
-    padding-bottom: 0.5rem;
+  color: #979797;
+  font-size: .8rem;
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
 }
 
 /*Hover Animation*/
