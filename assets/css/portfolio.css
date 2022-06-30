@@ -400,6 +400,30 @@ a.navbar-brand{
   opacity: .8;
 }
 
+.letsWorkSub a{
+  display: inline-block;
+  position: relative;
+  /*color: black;*/
+}
+
+.letsWorkSub a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #e50252;
+  transform-origin: bottom right;
+  transition: transform 0.35s ease-out;
+}
+
+.letsWorkSub a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom right;
+}
+
 .letsWorkSub{
   width: 60%;
   margin-left: auto;
