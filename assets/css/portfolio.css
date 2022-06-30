@@ -513,7 +513,7 @@ a.navbar-brand{
 }
 
 .prjctInfo p{
-  margin: initial;
+  margin: initial !important;
 }
 
 .prjctDesc{
@@ -528,7 +528,7 @@ a.navbar-brand{
   font-size: 3.6rem;
   font-weight: 900;
   font-family: 'Playfair Display', serif;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .prjctInfo h4{
@@ -538,6 +538,10 @@ a.navbar-brand{
 
 .prjctData h6{
   font-weight: 600;
+}
+
+.title-margin{
+  margin-top: 25px;
 }
 
 .img-fluid{
@@ -868,6 +872,10 @@ canvas {
 
 .about-main img{
   margin-bottom: 25px;
+}
+
+.title-margin{
+  margin-top: none;
 }
 
 }
