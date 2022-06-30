@@ -38,7 +38,7 @@ a{
 .loader-wrapper {
   width: 100%;
   /*height: 100vh;*/
-  
+
   height: 100%;
   position: absolute;
   top: 0;
@@ -232,7 +232,8 @@ a.navbar-brand{
 }
 
 .project-anchor:hover .MP-image {
-  opacity: 0.5;
+  /*opacity: 0.5;*/
+  filter: grayscale(100%);
   transform: scale(1.1);
 }
 
