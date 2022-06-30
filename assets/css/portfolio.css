@@ -615,6 +615,14 @@ section .row{
   color: rgba(0, 0, 0, 0.5);
 }
 
+.prev h6, .next h6{
+    color: #979797;
+    font-size: .8rem;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+}
+
 /*Hover Animation*/
 
 .prev a h1 {
