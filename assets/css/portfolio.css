@@ -707,6 +707,11 @@ section .row{
   transform-origin: bottom right;
 }
 
+.videos .rows>*{
+      padding-bottom: calc(var(--bs-gutter-x) * .5);
+    padding-top: calc(var(--bs-gutter-x) * .5);
+}
+
 
 /*Scroll Top*/
 
