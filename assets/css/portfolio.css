@@ -166,6 +166,33 @@ a.navbar-brand{
     display: flex;
   }
 
+
+
+
+/*Videos*/
+.screen-recording__empty:first-child, .screen-recording__image:first-child, .screen-recording__video:first-child {
+    position: relative;
+    height: auto;
+}
+
+.screen-recording__video {
+    transition: .2s cubic-bezier(1,0,0,1);
+    z-index: 2;
+}
+
+.screen-recording__empty, .screen-recording__image, .screen-recording__video {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top center;
+    object-position: top center;
+}
+
 /*Hero Section*/
 
 .intro{
