@@ -625,7 +625,7 @@ section .row{
 #tms .mission{
   background: #2980B9;
   background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
-  background: linear-gradient(217deg, #bff8fe, #5eb5d4, #2980B9);
+  background: linear-gradient(217deg, #047c97, #025f72, #064f60);
   color: white;
   padding: 60px 0;
 }
