@@ -175,7 +175,7 @@ video {
     height: auto !important;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 20px 35px rgb(0 0 0 / 20%);
+    box-shadow: 0 10px 25px rgb(0 0 0 / 20%);
 }
 
 /*Hero Section*/
@@ -540,7 +540,7 @@ video {
 #cs-main-content section p{
   font-size: 18px;
   line-height: 1.6em;
-  margin: 1rem 0 2.5rem 0;
+  margin: 1rem 0 2.5rem 0 !important;
   color: #555555;
 }
 
@@ -552,10 +552,13 @@ video {
   padding: 0;
   width: 100%;
   min-height: 100vh;
-  background-image: url(https://www.josechavez.design/assets/images/test-hero-img.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.hiAmasa{
+  background-image: url(https://www.josechavez.design/assets/images/HeroImage-Desktop-Amasa.jpeg);
 }
 
 .prjctInfo p{
@@ -865,6 +868,9 @@ canvas {
   .project-name {
     line-height: .9;
   }
+  .hiAmasa{
+  background-image: url(https://www.josechavez.design/assets/images/HeroImage-Mobile-Amasa.jpeg);
+}
 }
 
 /*// Small devices (landscape phones, less than 768px)*/
