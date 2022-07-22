@@ -558,7 +558,7 @@ video {
 }
 
 .hiAmasa{
-  background-image: url(https://www.josechavez.design/assets/images/HeroImage-Desktop-Amasa.jpg);
+  background-image: url(https://www.josechavez.design/assets/images/amasa/HeroImage-Desktop-Amasa.jpg);
 }
 
 .prjctInfo p{
@@ -869,7 +869,7 @@ canvas {
     line-height: .9;
   }
   .hiAmasa{
-    background-image: url(https://www.josechavez.design/assets/images/HeroImage-Mobile-Amasa.jpg);
+    background-image: url(https://www.josechavez.design/assets/images/amasa/HeroImage-Mobile-Amasa.jpg);
   }
   video {
     border-radius: 5px;
