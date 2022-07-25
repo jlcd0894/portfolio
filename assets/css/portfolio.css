@@ -245,7 +245,7 @@ video {
 
 .project-anchor:hover .MP-image {
   /*opacity: 0.5;*/
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
   transform: scale(1.1);
 }
 
