@@ -562,7 +562,7 @@ video {
 }
 
 .hiTMS{
-  background-image: url(https://www.josechavez.design/assets/images/tms/HeroImage-Desktop-TMS.jpg);
+  background-image: url(https://www.josechavez.design/assets/images/tms/HeroImage-Desktop-TMS.png);
 }
 
 .prjctInfo p{
@@ -892,7 +892,7 @@ canvas {
     background-image: url(https://www.josechavez.design/assets/images/amasa/HeroImage-Mobile-Amasa.jpg);
   }
     .hiTMS{
-    background-image: url(https://www.josechavez.design/assets/images/tms/HeroImage-Mobile-TMS.jpg);
+    background-image: url(https://www.josechavez.design/assets/images/tms/HeroImage-Mobile-TMS.png);
   }
   video {
     border-radius: 5px;
