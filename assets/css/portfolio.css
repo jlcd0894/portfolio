@@ -565,6 +565,10 @@ video {
   background-image: url(https://www.josechavez.design/assets/images/tms/HeroImage-Desktop-TMS.png);
 }
 
+.hiGPC{
+  background-image: url(https://www.josechavez.design/assets/images/gpc/HeroImage-Desktop-GPC.jpg);
+}
+
 .prjctInfo p{
   margin: initial !important;
 }
@@ -635,19 +639,18 @@ section .row{
 }
 
 #tms .mission{
-    background: #2980B9;
   background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
   background: linear-gradient(217deg, #51bff0, #2d86cc, #1e6dab);
-  color: white;
-  padding: 60px 0;
 }
 
 #amasa .mission{
-    background: #2980B9;
   background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
   background: linear-gradient(217deg, #047c97, #025f72, #064f60);
-  color: white;
-  padding: 60px 0;
+}
+
+#gpc .mission{
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  background: linear-gradient(334deg, #c90077, #9f29e1, #006bff);
 }
 
 .mission h3{
@@ -893,6 +896,9 @@ canvas {
   }
     .hiTMS{
     background-image: url(https://www.josechavez.design/assets/images/tms/HeroImage-Mobile-TMS.png);
+  }
+      .hiGPC{
+    background-image: url(https://www.josechavez.design/assets/images/gpc/HeroImage-Mobile-GPC.png);
   }
   video {
     border-radius: 5px;
