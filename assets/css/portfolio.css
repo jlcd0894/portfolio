@@ -270,7 +270,7 @@ video {
 
 .wg .project-anchor:hover .project-desc {
   opacity: 1;
-  background-image: linear-gradient(143deg, #05921aed, #f86202e3);
+  background-image: linear-gradient(143deg, #d15a09ed, #f89602e3);
   transform: scale(1.1) translate(-46%, -46%);
 }
 
@@ -568,6 +568,18 @@ video {
 .hiGPC{
   background-image: url(https://www.josechavez.design/assets/images/gpc/HeroImage-Desktop-GPC.jpg);
 }
+
+.hiMim{
+  background-image: url(https://www.josechavez.design/assets/images/mim/HeroImage-Desktop-mim.jpg);
+}
+
+.hiWg{
+  background-image: url(https://www.josechavez.design/assets/images/wg/HeroImage-Desktop-wg.png);
+}
+
+/*.hiVr{
+  background-image: url(https://www.josechavez.design/assets/images/vr/HeroImage-Desktop-vr.mp4);
+}*/
 
 .prjctInfo p{
   margin: initial !important;
@@ -910,6 +922,12 @@ canvas {
       .hiGPC{
     background-image: url(https://www.josechavez.design/assets/images/gpc/HeroImage-Mobile-GPC.png);
   }
+      .hiMim{
+    background-image: url(https://www.josechavez.design/assets/images/mim/HeroImage-Mobile-mim.jpg);
+  }
+      .hiWg{
+    background-image: url(https://www.josechavez.design/assets/images/wg/HeroImage-Mobile-wg.png);
+  }
   video {
     border-radius: 5px;
   }
@@ -993,6 +1011,13 @@ canvas {
 /*// X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
 
+}
+
+#vr-hi-video-mobile {display:none;}
+
+@media only screen and (max-width: 500px) {
+    #vr-hi-video-mobile {display:block;}
+    #vr-hi-video-desktop {display:none;}
 }
 
 
