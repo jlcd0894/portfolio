@@ -219,6 +219,7 @@ video {
   text-align: center;
   width: 100%;
   height: 100%;
+  /*background-image: linear-gradient(355deg, #139c5d, #0a58cad1);*/
 }
 
 #projects{
@@ -226,6 +227,10 @@ video {
   padding-top: var(--bs-gutter-x,.75rem);
   padding-bottom: var(--bs-gutter-x,.75rem);
   /*scroll-margin-top: 100px;*/
+}
+
+#projects .row>* {
+    padding: calc(var(--bs-gutter-x) * .5) !important;
 }
 
 .project-anchor {
@@ -246,44 +251,49 @@ video {
 .project-anchor:hover .MP-image {
   /*opacity: 0.5;*/
   /*filter: grayscale(100%);*/
-  transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+.project-anchor:hover .project-desc{
+    opacity: 1;
+transform: scale(1.05) translate(-47.6%, -47.5%);
 }
 
 .tms .project-anchor:hover .project-desc {
-  opacity: 1;
+  /*opacity: 1;*/
   /*background-image: linear-gradient(315deg, rgb(34 37 203 / 89%), rgb(225 49 244 / 81%));*/
   background-image: linear-gradient(72deg, #0a58cad4, #299ff9cc);
-  transform: scale(1.1) translate(-46%, -46%);
+  /*transform: scale(1.1) translate(-46%, -46%);*/
 }
 
 .amasa .project-anchor:hover .project-desc {
-  opacity: 1;
+  /*opacity: 1;*/
   background-image: linear-gradient(355deg, #139c5d, #0a58cad1);
-  transform: scale(1.1) translate(-46%, -46%);
+  /*transform: scale(1.1) translate(-46%, -46%);*/
 }
 
 .video .project-anchor:hover .project-desc {
-  opacity: 1;
+  /*opacity: 1;*/
   background-image: linear-gradient(315deg, rgb(34 37 203 / 89%), rgb(225 49 244 / 81%));
-  transform: scale(1.1) translate(-46%, -46%);
+  /*transform: scale(1.1) translate(-46%, -46%);*/
 }
 
 .wg .project-anchor:hover .project-desc {
-  opacity: 1;
+  /*opacity: 1;*/
   background-image: linear-gradient(143deg, #d15a09ed, #f89602e3);
-  transform: scale(1.1) translate(-46%, -46%);
+  /*transform: scale(1.1) translate(-46%, -46%);*/
 }
 
 .mim .project-anchor:hover .project-desc {
-  opacity: 1;
+  /*opacity: 1;*/
   background-image: linear-gradient(146deg, #35dcd7d6, #068b7dd1);
-  transform: scale(1.1) translate(-46%, -46%);
+  /*transform: scale(1.1) translate(-46%, -46%);*/
 }
 
 .gpc .project-anchor:hover .project-desc {
-  opacity: 1;
+  /*opacity: 1;*/
   background-image: linear-gradient(45deg, #9208c5d4, #2882e3c7);
-  transform: scale(1.1) translate(-46%, -46%);
+  /*transform: scale(1.1) translate(-46%, -46%);*/
 }
 
 .project-name {
