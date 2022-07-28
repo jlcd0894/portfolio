@@ -31,12 +31,6 @@ $(document).on('click',function(){
     $('.navbar .collapse').collapse('hide');
 })
 
-// //Change active item in navbar
-// $( '.navbar-nav a' ).on( 'click', function () {
-//     $( '.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
-//     $( this ).parent( 'li' ).addClass( 'active' );
-// });
-
 //video play when visible
  $(window).scroll(function() {
     $('video').each(function(){
@@ -49,17 +43,17 @@ $(document).on('click',function(){
 });
 
 
-// init Masonry
-var $grid = $('.grid').masonry({
-  itemSelector: '.grid-item',
-  percentPosition: true,
-  columnWidth: '.grid-sizer'
-});
+// // init Masonry
+// var $grid = $('.grid').masonry({
+//   itemSelector: '.grid-item',
+//   percentPosition: true,
+//   columnWidth: '.grid-sizer'
+// });
 
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry();
-});
+// // layout Masonry after each image loads
+// $grid.imagesLoaded().progress( function() {
+//   $grid.masonry();
+// });
 
 function handleScroll() {
   // Do something on scroll
@@ -83,29 +77,6 @@ function scrollToTop() {
 scrollToTopBtn.addEventListener("click", scrollToTop);
 document.addEventListener("scroll", handleScroll);
 
-// /*Scroll to top when arrow up clicked BEGIN*/
-// $(window).scroll(function() {
-//     var height = $(window).scrollTop();
-//     if (height > 300) {
-//         $('#back2Top').fadeIn();
-//     } else {
-//         $('#back2Top').fadeOut();
-//     }
-// });
-// $(document).ready(function() {
-//     $("#back2Top").click(function(event) {
-//         event.preventDefault();
-//         $("html, body").animate({ scrollTop: 0 }, "slow");
-//         return false;
-//     });
-
-// });
-// /*Scroll to top when arrow up clicked END*/
-
-// function parallax() {
-//     var scene = document.getElementById('scene');
-//     var parallaxInstance = new Parallax(scene);
-// }
 
 particlesJS("particles-js", {
   particles: {
@@ -164,22 +135,4 @@ retina_detect: true
 });
 
 
-
-$(document).ready(function() {
-
-    // if (isMobile===false){
-    //     $('.caliSunset').hide().fadeIn(2500);
-    // }
-
-    // $('body').hide().fadeIn(500);
-    // $(".rediFade").click(function(e) {
-    //     e.preventDefault();
-    //     $link = $(this).attr("href");
-    //     $("body").fadeOut(500,function(){
-    //       window.location =  $link; 
-    //     });
-    // });
-
-
-});
 
