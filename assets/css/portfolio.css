@@ -921,6 +921,9 @@ canvas {
   #app{
     font-size: 40px;
   }
+  .intro{
+    height: 400px !important;
+  }
   .project-name {
     line-height: .9;
   }

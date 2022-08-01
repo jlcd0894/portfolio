@@ -8,13 +8,13 @@ var typewriter = new Typewriter(app, {
 var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
 var rootElement = document.documentElement;
 
-typewriter.typeString("I'm a Web Designer.")
+typewriter.typeString("I'm a Digital Designer.")
 .pauseFor(1500)
 .deleteAll()
 .typeString('Based in San Diego, CA.')
 .pauseFor(1500)
 .deleteAll()
-.typeString('I like to create digital experiences.')
+.typeString('Focused on creating meaningful digital experiences.')
 .pauseFor(2000)
 .start();
 
