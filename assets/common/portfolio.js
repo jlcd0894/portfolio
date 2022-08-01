@@ -14,7 +14,7 @@ typewriter.typeString("I'm a Digital Designer.")
 .typeString('Based in San Diego, CA.')
 .pauseFor(1500)
 .deleteAll()
-.typeString('Focused on creating meaningful digital experiences.')
+.typeString('Focused on creating digital experiences.')
 .pauseFor(2000)
 .start();
 

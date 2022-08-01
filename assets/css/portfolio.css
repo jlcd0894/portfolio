@@ -332,6 +332,7 @@ transform: scale(1.05) translate(-47.6%, -47.5%);
 .about-main{
   padding-bottom: 50px;
   line-height: 1.7em;
+  align-items: center;
 }
 
 .resume-btn{
