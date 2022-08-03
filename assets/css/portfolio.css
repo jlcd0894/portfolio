@@ -920,6 +920,10 @@ canvas {
 
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
+  .prjctInfo h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    }
   #app{
     font-size: 40px;
   }
