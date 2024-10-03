@@ -1,0 +1,396 @@
+<!doctype html>
+	<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166597842-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-166597842-1');
+		</script>
+		<style>
+			body {
+				position: relative;
+			}
+		</style>
+
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		<link rel='icon' href='favicon.ico' type='image/x-icon'>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;900&display=swap" rel="stylesheet">
+		<title>Jose Chavez | Digital Designer</title>
+	</head>
+	<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" id="tms" data-enable-scroll="true">
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="https://www.josechavez.design/">Jose Chavez</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" style="border: none; color: transparent; padding: 0;">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarText">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="https://www.josechavez.design/">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://www.josechavez.design/#projects">WORK</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://www.josechavez.design/#about-me">ABOUT ME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">CONTACT</a>
+						</li>
+					</ul>
+					<!-- <span class="navbar-text"> -->
+						<ul class="nav-social-icons">
+							<li><a class="linkedin-in" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+							<li><a class="dribbble" href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+							<li><a class="behance" href="#" target="_blank"><i class="fab fa-behance"></i></a></li>
+							<li><a class="envelope" href="#"><i class="fas fa-envelope"></i></a></li>
+						</ul>
+						<!-- </span> -->
+					</div>
+				</div>
+			</nav>
+			<div id="cs-main-content">
+				<div class="container-fluid hero-img hiTMS">
+
+				</div>
+				<section style="padding: 70px 0 30px 0;">
+					<div class="container prjctInfo">
+						<h4>The Messi Store™</h4>
+						<h1>A multi-disciplinary approach to a legendary celebration</h1>
+						<div class="row" style="align-items: initial;">
+							<div class="col-md-7 col-sm-12 prjctDesc">
+								<p>
+									The Messi Store is the online store for The Messi Brand, the official premium lifestyle brand of the legendary soccer player Leo Messi. Their primary focus is to integrate the values, vision, and sportsmanship that Leo is known for on the pitch into their apparel, as well as keeping these aspects at the core of their brand.
+								</p>
+							</div>
+							<div class="col-md-4 col-sm-12 prjctData">
+								<div class="row">
+									<div class="col-md-6 col-6">
+										<h6>Client</h6>
+										<p>The Messi Store</p>
+									</div>
+									<div class="col-md-6 col-6">
+										<h6>Completed</h6>
+										<p>2021</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12 col-12">
+										<h6>Role</h6>
+										<p>Ui/Ux Design, Graphic Design</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section style="margin-bottom: 100px; padding: 0;">
+					<!-- <div class="container Overlays"></div> -->
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<img src="assets/images/tms/Main-image-tms.png" class="img-fluid" alt="overlays">
+							</div>							
+						</div>
+					</div>
+				</section>
+				<section class="mission">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-7 col-sm-12">
+								<h3>The Mission</h3>
+								<p style="color: white; margin-bottom: 0;">To envision, design, and develop a campaign celebrating Leo's most recent success, winnning "La Copa America", to push forward and expand The Messi Brand and The Messi Store. The main focus was to designing a series of postcards with emblematic designs of Leo's career, to be given away for free. This also required the design and development of a landing page in order for the customer to reliably aquire the postcards. The main purpose of this project was to expand the brand, gain new customers, and test the marketability of The Messi Brand.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="container conceptualization">
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<h3>Sketches</h3>
+								<p style="margin-bottom: 0;">The first step was to create a landing page that would display and sell the postcards. There was no need to create a site map for this project since we only required one page. The idea was to make the entire process seamless. That's why we decided to make a page that contained both the product display as well as the checkout. Having a hybrid page like this makes it easier for the customer and avoids any potential 
+								</p>
+							</div>	
+							<div class="col col-xxs-12 col-lg-1">
+								<svg viewBox="0 0 48 1" preserveAspectRatio="none" vector-effect="non-scaling-stroke" class="annotated-visual__line">
+									<path d="M48,0.5 L1,0.5" preserveAspectRatio="none" vector-effect="non-scaling-stroke"></path>
+								</svg>
+							</div>
+							<div class="col-md-7 col-sm-12">
+								<img src="assets/images/tms/Sketches-TMS.png" class="img-fluid"/>
+							</div>		
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="container">
+						<div class="row mobile-revers-column">
+							<div class="col-md-6 col-sm-12">
+								<img src="assets/images/tms/LoFi-TMS.png" class="img-fluid"/>
+							</div>
+							<div class="col col-xxs-12 col-lg-1">
+								<svg viewBox="0 0 48 1" preserveAspectRatio="none" vector-effect="non-scaling-stroke" class="annotated-visual__line">
+									<path d="M48,0.5 L1,0.5" preserveAspectRatio="none" vector-effect="non-scaling-stroke"></path>
+								</svg>
+							</div>
+							<div class="col-md-5 col-sm-12">
+								<h3>Low Fidelity</h3>
+								<p style="margin-bottom: 0;">The low fidelity wireframe needed for this project was very straight forward. One single landing page that included both the product and the checkout.
+								</p>
+							</div>			
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<h3>Style Guide</h3>
+								<p style="margin-bottom: 0;">This style guide was created using the brand guidelines of "The Messi Brand", taking into consideration that this is a relatively new brand, it was important to keep in line with their aesthetic, so the customers would learn to quickly identify the brand just by looking at the design elements and visuals on the landing page.
+								</p>
+							</div>	
+							<div class="col col-xxs-12 col-lg-1">
+								<svg viewBox="0 0 48 1" preserveAspectRatio="none" vector-effect="non-scaling-stroke" class="annotated-visual__line">
+									<path d="M48,0.5 L1,0.5" preserveAspectRatio="none" vector-effect="non-scaling-stroke"></path>
+								</svg>
+							</div>
+							<div class="col-md-7 col-sm-12">
+								<img src="assets/images/tms/Style-Guide-TMS.png" class="img-fluid"/>
+							</div>		
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="container">
+						<div class="row mobile-revers-column">
+							<div class="col-md-6 col-sm-12">
+								<video loop muted>
+									<source src="assets/images/tms/HomePage-Scroll.mp4" type="video/mp4">
+									Sorry, your browser doesn't support embedded videos.
+								</video>
+							</div>
+							<div class="col col-xxs-12 col-lg-1">
+								<svg viewBox="0 0 48 1" preserveAspectRatio="none" vector-effect="non-scaling-stroke" class="annotated-visual__line">
+									<path d="M48,0.5 L1,0.5" preserveAspectRatio="none" vector-effect="non-scaling-stroke"></path>
+								</svg>
+							</div>
+							<div class="col-md-5 col-sm-12">
+								<h3>Finishing The Design</h3>
+								<p style="margin-bottom: 0;">Using "The Messi Brand" guidelines and aesthetic, I moved on to create the high fidelity wireframe. This prototype was sent to and reviewed by stakeholders to make sure everything was in order before the development process started.</p>
+							</div>			
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-7 col-sm-12 hiFi">
+								<h3>Rejected Designs</h3>
+								<p>The postcard design process was very complex. There were a lot of do's and dont's, several guidelines to follow, and multiple rounds of revisions to ensure everything was ready for print. The reason these were rejected was because of legal issues, showing extertnal brands, logos and similarities. We were told that even though they liked the designs, it was risky to use them as they could present legal problems.
+								</p>
+							</div>																												
+						</div>
+					</div>
+					<img src="assets/images/tms/Postcard-rej-designs.png" class="img-fluid" alt="overlays" style="border-radius: 0 !important;">
+				</section>
+				<section>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-7 col-sm-12 hiFi">
+								<h3>Final Product</h3>
+								<p>After multiple rounds of designs and revisions, the stakeholders chose three designs to be the final product and that would be printed out. These were picked-out from the batch of "rejected" designs, and were modified so no other logos were present in product to avoid any potential legasl issues. A set of media posts were also cerated, displaying the postcards so they could be posted on launch day to Facebook and Instagram. One set for The Messi Store page and another for Leo Messi's personal
+								</p>
+							</div>						
+						</div>
+						<div class="row">
+							<div class="col-md-4 col-12">
+								<img src="assets/images/tms/Postcard-1.png" class="img-fluid" alt="overlays">
+							</div>
+							<div class="col-md-4 col-12">
+								<img src="assets/images/tms/Postcard-2.png" class="img-fluid" alt="overlays">
+							</div>
+							<div class="col-md-4 col-12">
+								<img src="assets/images/tms/Postcard-3.png" class="img-fluid" alt="overlays">
+							</div>
+						</div>
+						<img src="assets/images/tms/Social-Media-Posts.png" class="img-fluid" alt="overlays" style="margin-top: 50px;">
+					</div>
+				</section>
+				<section>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<h3>Social Media Posts</h3>
+								<p style="margin-bottom: 0;">Here you can see a brief animation of multiple social media designs that I also created that were posted to The Messi Store and Leo's accounts. You can see one of them <a href="https://www.instagram.com/p/CR6C8FrLhJp/?igshid=YmMyMTA2M2Y%3D" target="_blank">here</a>
+								</p>
+							</div>	
+							<div class="col col-xxs-12 col-lg-1">
+								<svg viewBox="0 0 48 1" preserveAspectRatio="none" vector-effect="non-scaling-stroke" class="annotated-visual__line">
+									<path d="M48,0.5 L1,0.5" preserveAspectRatio="none" vector-effect="non-scaling-stroke"></path>
+								</svg>
+							</div>
+							<div class="col-md-5 col-sm-12">
+								<video loop muted>
+									<source src="assets/images/tms/Meida-Posts.mp4" type="video/mp4">
+									Sorry, your browser doesn't support embedded videos.
+								</video>
+							</div>		
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-7 col-sm-12">
+								<h3>Postalcard Prints</h3>
+								<p>The postcards were delivered a couple of weeks after the promotion period ended. Here you can see the actual prints I personally received in all their glory.
+								</p>
+							</div>						
+						</div>
+						<div class="row">
+							<div class="col-md-6 col-sm-12 sitemap" style="padding: 10px;">
+								<img src="assets/images/tms/Final-Product-1.png" class="img-fluid"/>
+							</div>	
+							<div class="col-md-6 col-sm-12 sketch" style="padding: 10px;">
+								<img src="assets/images/tms/Final-Product-2.png" class="img-fluid"/>
+							</div>						
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="container">
+						<div class="row mobile-revers-column">
+							<div class="col-md-6 col-sm-12">
+								<img src="assets/images/tms/Further-Work.png" class="img-fluid"/>
+							</div>
+							<div class="col col-xxs-12 col-lg-1">
+								<svg viewBox="0 0 48 1" preserveAspectRatio="none" vector-effect="non-scaling-stroke" class="annotated-visual__line">
+									<path d="M48,0.5 L1,0.5" preserveAspectRatio="none" vector-effect="non-scaling-stroke"></path>
+								</svg>
+							</div>
+							<div class="col-md-5 col-sm-12">
+								<h3>Further Work</h3>
+								<p style="margin-bottom: 0;">After the project ended, The Messi Brand team requested further help on some minor creatives which I got to work on. This mainly consisted of new designs for social media, specifically for their Facebook and Instagram accounts.
+								</p>
+							</div>			
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div class="container">
+						<div class="row">
+							<div class="col-5 prev">
+								<a href="https://www.josechavez.design/GPC" style="text-decoration: none;">
+									<h6>PREV</h6>
+									<br>
+									<h1 class="hover-underline-animation-left">GPC</h1>
+								</a>								
+							</div>
+							<div class="col-2 gallery">
+								<a href="https://www.josechavez.design/#projects">
+									<i class="fa fa-th" aria-hidden="true" style="transition: .5s ease;"></i>
+								</a>
+							</div>
+							<div class="col-5 next" style="text-align: right;">
+								<a href="https://www.josechavez.design/Amasa" style="text-decoration: none;">
+									<h6>NEXT</h6>
+									<br>
+									<h1 class="hover-underline-animation-right">Amasa</h1>	
+								</a>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+
+				<div class="container-fluid" id="contact">
+					<div class="container">
+						<div class="row footerMain">
+							<div class="col-md-12">
+								<h1 class="letsWork">Let's work together!</h1>
+								<p class="letsWorkSub">Want to discuss a project, collaborate, or say hello? <a href="mailto:jlcdominic94@.com">Shoot me an email,</a> I'd love to hear from you! : )</p>
+							</div>
+						</div>
+						<hr style="background: linear-gradient(145deg, rgba(255, 0, 49, 0.94) 0%, rgba(224, 0, 254, 0.83) 100%); height:2px;">
+						<div class="row footerSub">
+							<div class="col-md-3 col-sm-12" style="text-align: left;">
+								<p style="font-weight:500; color:#9a9a9a">Contact</p>
+								<p><a href="mailto:jlcdominic94@.com">jlcdominc94@gmail.com</a></p>
+							</div>
+							<div class="col-md-3 col-sm-12" style="text-align: left;">
+								<p style="font-weight:500; color:#9a9a9a">Connect</p>
+								<p>
+
+									<a href="https://www.linkedin.com/in/joseluischavez94">LinkedIn</a>
+									<br>
+									<a href="https://www.behance.net/jlcd0894/">Behance</a>
+									<br>
+									<a href="https://dribbble.com/jlcdominic94/">Dribble</a>
+								</p>
+							</div>
+							<div class="col-md-6 col-sm-12 copyright">
+								<p style="font-weight: 500; color:#9a9a9a">2022 by Jose Luis Chavez - Digital Designer</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="particles-js"><span class="js-count-particles"></span></div>
+			</div>
+			<!-- Button on fixed on bottom right corner of the page -->
+			<button class="scrollToTopBtn">☝️</button>
+
+
+			<!-- Optional JavaScript -->
+			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/is-in-viewport/3.0.4/isInViewport.min.js" integrity="sha512-eAT5Hvi9/Yx33YvSUPOpAYEA3HnUt5oKCSyPGRQwNgqD7K/90JRpFnkaL1M6ROZtLkckQKJ4WYh9cS7Urr4YjA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+			<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js" integrity="sha512-kfs3Dt9u9YcOiIt4rNcPUzdyNNO9sVGQPiZsub7ywg6lRW5KuK1m145ImrFHe3LMWXHndoKo2YRXWy8rnOcSKg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+			<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+			<script>
+				$(window).on("load",function(){
+					setTimeout(loadAfterTime, 200);
+					function loadAfterTime() { 
+							// code you need to execute goes here. 
+							$(".loader-wrapper").fadeOut("slow");
+						}
+
+					});
+				</script>
+
+				<!-- Personal -->
+				<script src="assets/common/portfolio.js"></script>
+			</body>
+			</html>
