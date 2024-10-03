@@ -668,6 +668,10 @@ section .row{
   background: linear-gradient(217deg, #51bff0, #2d86cc, #1e6dab);
 }
 
+#tms .annotated-visual__line{
+  stroke: #2d86cc;
+}
+
 #amasa .mission{
   background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
   background: linear-gradient(217deg, #047c97, #025f72, #064f60);
@@ -693,9 +697,17 @@ section .row{
   background: linear-gradient(217deg, #dfa503, #cb8606, #a14301);
 }
 
+#ck .annotated-visual__line{
+  stroke: #cb8606;
+}
+
 #bk .mission{
   background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
   background: linear-gradient(217deg, #8dcbbd, #0e7a7f, #00585C);
+}
+
+#bk .annotated-visual__line{
+  stroke: #0e7a7f;
 }
 
 #cw .mission{
@@ -703,9 +715,17 @@ section .row{
   background: linear-gradient(217deg, #5d7f52, #29531c, #1a430d);
 }
 
+#cw .annotated-visual__line{
+  stroke: #29531c;
+}
+
 #sp .mission{
   background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
   background: linear-gradient(217deg, #427dbf, #26598d, #263C8D);
+}
+
+#sp .annotated-visual__line{
+  stroke: #26598d;
 }
 
 .mission h3{
