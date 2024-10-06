@@ -575,7 +575,7 @@ transform: scale(1.05) translate(-47.6%, -47.5%);
 }
 
 .hiTMS{
-  background-image: url(https://www.josechavez.design/assets/images/tms/HeroImage-Desktop-TMS.png);
+  background-image: url(https://www.josechavez.design/assets/images/tms/24-TMS-Desktop.png);
 }
 
 .hiGPC{
@@ -588,6 +588,18 @@ transform: scale(1.05) translate(-47.6%, -47.5%);
 
 .hiWg{
   background-image: url(https://www.josechavez.design/assets/images/wg/HeroImage-Desktop-wg.png);
+}
+.hiCK{
+  background-image: url(https://www.josechavez.design/assets/images/CK/Crackd-Desktop.png);
+}
+.hiBk{
+  background-image: url(https://www.josechavez.design/assets/images/BK/24-Barnakl-Desktop.jpg);
+}
+.hiSp{
+  background-image: url(https://www.josechavez.design/assets/images/SP/24-SP-Desktop.mp4);
+}
+.hiCw{
+  background-image: url(https://www.josechavez.design/assets/images/CW/24-Campway-IntroDesktop.jpg);
 }
 
 /*.hiVr{
@@ -977,7 +989,7 @@ canvas {
     background-image: url(https://www.josechavez.design/assets/images/amasa/HeroImage-Mobile-Amasa.jpg);
   }
     .hiTMS{
-    background-image: url(https://www.josechavez.design/assets/images/tms/HeroImage-Mobile-TMS.png);
+    background-image: url(https://www.josechavez.design/assets/images/tms/24-TMS-Mobile.png);
   }
       .hiGPC{
     background-image: url(https://www.josechavez.design/assets/images/gpc/HeroImage-Mobile-GPC.jpg);
@@ -987,6 +999,18 @@ canvas {
   }
       .hiWg{
     background-image: url(https://www.josechavez.design/assets/images/wg/HeroImage-Mobile-wg.png);
+  }
+  .hiCK{
+    background-image: url(https://www.josechavez.design/assets/images/CK/Crackd-Mobile.png);
+  }
+  .hiBk{
+    background-image: url(https://www.josechavez.design/assets/images/BK/24-Barnakl-Mobile.jpg);
+  }
+  .hiSp{
+    background-image: url(https://www.josechavez.design/assets/images/SP/24-SP-Mobile.mp4);
+  }
+  .hiCw{
+    background-image: url(https://www.josechavez.design/assets/images/CW/24-Campway-Mobile.jpg);
   }
   video {
     border-radius: 5px;
